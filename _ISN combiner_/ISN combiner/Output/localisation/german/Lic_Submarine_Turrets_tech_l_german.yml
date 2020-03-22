@@ -1,0 +1,43 @@
+﻿l_german:
+
+ basic_battery_submarine_turret:0 "Grundbatterie
+ improved_light_battery_2_submarine_turret:0 "Verbesserte 115-135mm Batterie
+ advanced_light_battery_2_submarine_turret:0 "Fortschrittliche 115-135mm Batterie
+ improved_dp_light_battery_2_submarine_turret:0 "Mehrzweck 115-135mm Batterie
+ advanced_dp_light_battery_2_submarine_turret:0 "Fortschrittliche Mehrzweck 115-135mm Batterie
+ improved_medium_battery_submarine_turret:0 "Verbessertes 135-160mm Geschütz Mittel"
+ advanced_medium_battery_submarine_turret:0 "Fortschrittliches 135-160mm Geschütz Mittel"
+ modern_medium_battery_submarine_turret:0 "Schnellfeuer 145-160mm Batterie Mittel"
+ improved_dp_medium_battery_submarine_turret:0 "Mehrzweck 135-145mm Batterie Mittel"
+ advanced_dp_medium_battery_submarine_turret:0 "Fortschrittliche Mehrzweck 135-145mm Batterie Mittel"
+ basic_medium_battery_2_submarine_turret:0 "180-210mm Batterie Mittel"
+ improved_medium_battery_2_submarine_turret:0 "Verbessertes 135-160mm Geschütz Mittel"
+ advanced_medium_battery_2_submarine_turret:0 "Fortschrittliches 135-160mm Geschütz Mittel"
+ modern_medium_battery_2_submarine_turret:0 "Schnellfeuer 145-160mm Batterie Mittel"
+ improved_heavy_battery_submarine_turret:0 "Verbessertes 250-310mm Geschütz
+ basic_heavy_battery_2_submarine_turret:0 "320-360mm Batterie
+ advanced_heavy_battery_2_submarine_turret:0 "Fortschrittliches 250-310mm Geschütz
+ basic_heavy_battery_3_submarine_turret:0 "380-420mm Batterie
+ improved_heavy_battery_3_submarine_turret:0 "Verbessertes 250-310mm Geschütz
+ advanced_heavy_battery_3_submarine_turret:0 "Fortschrittliches 250-310mm Geschütz
+
+ basic_battery_submarine_turret_desc:0 ""
+ improved_light_battery_2_submarine_turret_desc:0 ""
+ advanced_light_battery_2_submarine_turret_desc:0 ""
+ improved_dp_light_battery_2_submarine_turret_desc:0 ""
+ advanced_dp_light_battery_2_submarine_turret_desc:0 ""
+ improved_medium_battery_submarine_turret_desc:0 ""
+ advanced_medium_battery_submarine_turret_desc:0 ""
+ modern_medium_battery_submarine_turret_desc:0 ""
+ improved_dp_medium_battery_submarine_turret_desc:0 ""
+ advanced_dp_medium_battery_submarine_turret_desc:0 ""
+ basic_medium_battery_2_submarine_turret_desc:0 ""
+ improved_medium_battery_2_submarine_turret_desc:0 ""
+ advanced_medium_battery_2_submarine_turret_desc:0 ""
+ modern_medium_battery_2_submarine_turret_desc:0 ""
+ improved_heavy_battery_submarine_turret_desc:0 ""
+ basic_heavy_battery_2_submarine_turret_desc:0 ""
+ advanced_heavy_battery_2_submarine_turret_desc:0 ""
+ basic_heavy_battery_3_submarine_turret_desc:0 ""
+ improved_heavy_battery_3_submarine_turret_desc:0 ""
+ advanced_heavy_battery_3_submarine_turret_desc:0 ""

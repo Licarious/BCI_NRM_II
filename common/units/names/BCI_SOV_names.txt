@@ -1,0 +1,29 @@
+SOV = {
+	submarine_cv = {
+		prefix = ""
+		generic = { "Podvodnyy Avianosets" }
+		unique = {
+		# Fictional (and older) names start here
+			"S-61" "S-62" "S-63" "S-64" "S-65" "S-66" "S-67" "S-68" "S-69" "S-70" 
+			"Sch-415" "Sch-416" "Sch-417" "Sch-418" "Sch-419" "Sch-420" "Sch-424" "Sch-425" "Sch-426" "Sch-427" "Sch-428" "Sch-429" "Sch-430"
+			"D-1" "D-2" "D-3" "D-4" "D-5" "D-6" "Shch-301" "Shch-302" "Shch-303" "Shch-304" 
+			"Shch-101" "Shch-102" "Shch-103" "Shch-104" "Shch-105" "Shch-106" "Shch-107" "Shch-108" "Shch-109" "Shch-110" "Shch-111" "Shch-112" "Shch-113" "Shch-114" "Shch-115" "Shch-116" 
+			"Shch-117" "Shch-118" "Shch-119" "Shch-120" "Shch-305" "Shch-308" "Shch-121" "Shch-122" "Shch-123" "Shch-124" "Shch-125" 
+		}
+	}
+	cruiser_cv = {
+		prefix = ""
+		generic = { "Aviatsionnyy Kreyser" }
+		unique = {
+			"Admiral Senyavin" "Dmitry Pozharski" "Oktyabrskaya Revolutsiya" "Murmansk" "Mikhail Kutuzov" "Grozny" "Admiral Fokin" "Admiral Golovko" "Khabarovsk"
+		}
+	}
+	heavy_cv = {
+		prefix = ""
+		generic = { "Bronenosets Avianosets" }
+		unique = {
+			"Karl Marx"
+			"Murmansk" "Vladivostok" "Vladamir Lenin" "Iosef Stalin" "Volya" "Engels" "Aleksandr Nevskiy" "Admiral Kuznetsov"  "Leon Trotsky"
+		}
+	}
+}

@@ -1,0 +1,82 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_basic_battery_submarine_turret_medium"
+		texturefile = "gfx/interface/technologies/basic_heavy_battery.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_light_battery_2_submarine_turret_medium"
+		texturefile = "gfx/interface/technologies/improved_light_battery.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_light_battery_2_submarine_turret_medium"
+		texturefile = "gfx/interface/technologies/improved_light_battery.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_dp_light_battery_2_submarine_turret_medium"
+		texturefile = "gfx/interface/technologies/improved_light_battery.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_dp_light_battery_2_submarine_turret_medium"
+		texturefile = "gfx/interface/technologies/improved_light_battery.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_medium_battery_submarine_turret_medium"
+		texturefile = "gfx/interface/technologies/basic_medium_battery.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_medium_battery_submarine_turret_medium"
+		texturefile = "gfx/interface/technologies/advanced_medium_battery.dds"
+	}
+	SpriteType = {
+		name = "GFX_modern_medium_battery_submarine_turret_medium"
+		texturefile = "gfx/interface/technologies/modern_medium_battery.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_dp_medium_battery_submarine_turret_medium"
+		texturefile = "gfx/interface/technologies/basic_medium_battery.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_dp_medium_battery_submarine_turret_medium"
+		texturefile = "gfx/interface/technologies/basic_medium_battery.dds"
+	}
+	SpriteType = {
+		name = "GFX_basic_medium_battery_2_submarine_turret_medium"
+		texturefile = "gfx/interface/technologies/improved_medium_battery.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_medium_battery_2_submarine_turret_medium"
+		texturefile = "gfx/interface/technologies/improved_medium_battery.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_medium_battery_2_submarine_turret_medium"
+		texturefile = "gfx/interface/technologies/advanced_medium_battery.dds"
+	}
+	SpriteType = {
+		name = "GFX_modern_medium_battery_2_submarine_turret_medium"
+		texturefile = "gfx/interface/technologies/modern_medium_battery.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_heavy_battery_submarine_turret_medium"
+		texturefile = "gfx/interface/technologies/basic_heavy_battery.dds"
+	}
+	SpriteType = {
+		name = "GFX_basic_heavy_battery_2_submarine_turret_medium"
+		texturefile = "gfx/interface/technologies/improved_heavy_battery.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_heavy_battery_2_submarine_turret_medium"
+		texturefile = "gfx/interface/technologies/improved_heavy_battery.dds"
+	}
+	SpriteType = {
+		name = "GFX_basic_heavy_battery_3_submarine_turret_medium"
+		texturefile = "gfx/interface/technologies/improved_heavy_battery.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_heavy_battery_3_submarine_turret_medium"
+		texturefile = "gfx/interface/technologies/improved_heavy_battery.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_heavy_battery_3_submarine_turret_medium"
+		texturefile = "gfx/interface/technologies/improved_heavy_battery.dds"
+	}
+}

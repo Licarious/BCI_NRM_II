@@ -1,0 +1,7 @@
+
+nrm_capital_battery_2x2
+nrm_capital_battery_2x1
+nrm_capital_battery_2x1_long
+nrm_capital_battery_3x1
+nrm_capital_battery_3x1_long
+nrm_capital_battery_4x1

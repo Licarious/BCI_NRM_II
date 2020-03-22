@@ -1,0 +1,191 @@
+add_namespace = lic_tech_man
+
+#Submarine Modules
+#submarine_hanger_small
+country_event = {
+	id = lic_tech_man.40
+	title = lic_tech_man.40.t	
+	desc = lic_tech_man.40.desc
+	picture = GFX_
+	hidden = yes
+	
+	trigger = {
+		not = { has_tech = submarine_hanger_small }
+		has_country_flag = Lic_sub_surface_hybrids
+		has_tech = airplane_launcher
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { submarine_hanger_small = 1 }
+	}
+}
+#submarine_hanger_medium
+country_event = {
+	id = lic_tech_man.41
+	title = lic_tech_man.41.t	
+	desc = lic_tech_man.41.desc
+	picture = GFX_
+	hidden = yes
+	
+	trigger = {
+		not = { has_tech = submarine_hanger_medium }
+		has_country_flag = Lic_sub_surface_hybrids
+		has_tech = improved_airplane_launcher
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { submarine_hanger_medium = 1 }
+	}
+}
+#submarine_hanger_large
+country_event = {
+	id = lic_tech_man.42
+	title = lic_tech_man.42.t	
+	desc = lic_tech_man.42.desc
+	picture = GFX_
+	hidden = yes
+	
+	trigger = {
+		not = { has_tech = submarine_hanger_large }
+		has_country_flag = Lic_sub_surface_hybrids
+		has_tech = advanced_airplane_launcher
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { submarine_hanger_large = 1 }
+	}
+}
+
+#Surface Pure Deck Modules
+#converted small
+country_event = {
+	id = lic_tech_man.43
+	title = lic_tech_man.43.t	
+	desc = lic_tech_man.43.desc
+	picture = GFX_
+	hidden = yes
+	
+	trigger = {
+		not = { has_tech = surface_hybrid_flightdeck_converted_small }
+		has_country_flag = Lic_surface_hybrids
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { surface_hybrid_flightdeck_converted_small = 1 }
+	}
+}
+#converted medium
+country_event = {
+	id = lic_tech_man.44
+	title = lic_tech_man.44.t	
+	desc = lic_tech_man.44.desc
+	picture = GFX_
+	hidden = yes
+	
+	trigger = {
+		not = { has_tech = surface_hybrid_flightdeck_converted_medium }
+		has_country_flag = Lic_surface_hybrids
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { surface_hybrid_flightdeck_converted_medium = 1 }
+	}
+}
+#converted large
+country_event = {
+	id = lic_tech_man.45
+	title = lic_tech_man.45.t	
+	desc = lic_tech_man.45.desc
+	picture = GFX_
+	hidden = yes
+	
+	trigger = {
+		not = { has_tech = surface_hybrid_flightdeck_converted_large }
+		has_country_flag = Lic_surface_hybrids
+		has_tech = advanced_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { surface_hybrid_flightdeck_converted_large = 1 }
+	}
+}
+#armored small
+country_event = {
+	id = lic_tech_man.46
+	title = lic_tech_man.46.t	
+	desc = lic_tech_man.46.desc
+	picture = GFX_
+	hidden = yes
+	
+	trigger = {
+		not = { has_tech = surface_hybrid_flightdeck_armored_small }
+		has_country_flag = Lic_surface_hybrids
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { surface_hybrid_flightdeck_armored_small = 1 }
+	}
+}
+#armored medium
+country_event = {
+	id = lic_tech_man.47
+	title = lic_tech_man.47.t	
+	desc = lic_tech_man.47.desc
+	picture = GFX_
+	hidden = yes
+	
+	trigger = {
+		not = { has_tech = surface_hybrid_flightdeck_armored_medium }
+		has_country_flag = Lic_surface_hybrids
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { surface_hybrid_flightdeck_armored_medium = 1 }
+	}
+}
+#armored large
+country_event = {
+	id = lic_tech_man.48
+	title = lic_tech_man.48.t	
+	desc = lic_tech_man.48.desc
+	picture = GFX_
+	hidden = yes
+	
+	trigger = {
+		not = { has_tech = surface_hybrid_flightdeck_armored_large }
+		has_country_flag = Lic_surface_hybrids
+		has_tech = advanced_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { surface_hybrid_flightdeck_armored_large = 1 }
+	}
+}

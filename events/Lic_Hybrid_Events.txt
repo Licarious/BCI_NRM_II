@@ -1,0 +1,2563 @@
+
+add_namespace = lic_tech
+
+#basic_battery_converted_small
+country_event = {
+	id = lic_tech.1
+	title = lic_tech.1.t
+	desc = lic_tech.1.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = basic_battery_converted_small } 
+		has_tech = basic_battery
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { basic_battery_converted_small = 1 }
+	}
+}
+#basic_battery_converted_medium
+country_event = {
+	id = lic_tech.2
+	title = lic_tech.2.t
+	desc = lic_tech.2.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = basic_battery_converted_medium } 
+		has_tech = basic_battery
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { basic_battery_converted_medium = 1 }
+	}
+}
+#basic_battery_converted_large
+country_event = {
+	id = lic_tech.3
+	title = lic_tech.3.t
+	desc = lic_tech.3.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = basic_battery_converted_large } 
+		has_tech = basic_battery
+		has_tech = advanced_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { basic_battery_converted_large = 1 }
+	}
+}
+#basic_battery_armored_small
+country_event = {
+	id = lic_tech.4
+	title = lic_tech.4.t
+	desc = lic_tech.4.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = basic_battery_armored_small } 
+		has_tech = basic_battery
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { basic_battery_armored_small = 1 }
+	}
+}
+#basic_battery_armored_medium
+country_event = {
+	id = lic_tech.5
+	title = lic_tech.5.t
+	desc = lic_tech.5.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = basic_battery_armored_medium } 
+		has_tech = basic_battery
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { basic_battery_armored_medium = 1 }
+	}
+}
+#basic_battery_armored_large
+country_event = {
+	id = lic_tech.6
+	title = lic_tech.6.t
+	desc = lic_tech.6.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = basic_battery_armored_large } 
+		has_tech = basic_battery
+		has_tech = advanced_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { basic_battery_armored_large = 1 }
+	}
+}
+#improved_light_battery_2_converted_small
+country_event = {
+	id = lic_tech.7
+	title = lic_tech.7.t
+	desc = lic_tech.7.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_light_battery_2_converted_small } 
+		has_tech = improved_light_battery_2
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_light_battery_2_converted_small = 1 }
+	}
+}
+#improved_light_battery_2_converted_medium
+country_event = {
+	id = lic_tech.8
+	title = lic_tech.8.t
+	desc = lic_tech.8.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_light_battery_2_converted_medium } 
+		has_tech = improved_light_battery_2
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_light_battery_2_converted_medium = 1 }
+	}
+}
+#improved_light_battery_2_armored_small
+country_event = {
+	id = lic_tech.9
+	title = lic_tech.9.t
+	desc = lic_tech.9.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_light_battery_2_armored_small } 
+		has_tech = improved_light_battery_2
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_light_battery_2_armored_small = 1 }
+	}
+}
+#improved_light_battery_2_armored_medium
+country_event = {
+	id = lic_tech.10
+	title = lic_tech.10.t
+	desc = lic_tech.10.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_light_battery_2_armored_medium } 
+		has_tech = improved_light_battery_2
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_light_battery_2_armored_medium = 1 }
+	}
+}
+#advanced_light_battery_2_converted_small
+country_event = {
+	id = lic_tech.11
+	title = lic_tech.11.t
+	desc = lic_tech.11.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_light_battery_2_converted_small } 
+		has_tech = advanced_light_battery_2
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_light_battery_2_converted_small = 1 }
+	}
+}
+#advanced_light_battery_2_converted_medium
+country_event = {
+	id = lic_tech.12
+	title = lic_tech.12.t
+	desc = lic_tech.12.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_light_battery_2_converted_medium } 
+		has_tech = advanced_light_battery_2
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_light_battery_2_converted_medium = 1 }
+	}
+}
+#advanced_light_battery_2_armored_small
+country_event = {
+	id = lic_tech.13
+	title = lic_tech.13.t
+	desc = lic_tech.13.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_light_battery_2_armored_small } 
+		has_tech = advanced_light_battery_2
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_light_battery_2_armored_small = 1 }
+	}
+}
+#advanced_light_battery_2_armored_medium
+country_event = {
+	id = lic_tech.14
+	title = lic_tech.14.t
+	desc = lic_tech.14.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_light_battery_2_armored_medium } 
+		has_tech = advanced_light_battery_2
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_light_battery_2_armored_medium = 1 }
+	}
+}
+#improved_dp_light_battery_2_converted_small
+country_event = {
+	id = lic_tech.15
+	title = lic_tech.15.t
+	desc = lic_tech.15.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_dp_light_battery_2_converted_small } 
+		has_tech = improved_dp_light_battery_2
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_dp_light_battery_2_converted_small = 1 }
+	}
+}
+#improved_dp_light_battery_2_converted_medium
+country_event = {
+	id = lic_tech.16
+	title = lic_tech.16.t
+	desc = lic_tech.16.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_dp_light_battery_2_converted_medium } 
+		has_tech = improved_dp_light_battery_2
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_dp_light_battery_2_converted_medium = 1 }
+	}
+}
+#improved_dp_light_battery_2_armored_small
+country_event = {
+	id = lic_tech.17
+	title = lic_tech.17.t
+	desc = lic_tech.17.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_dp_light_battery_2_armored_small } 
+		has_tech = improved_dp_light_battery_2
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_dp_light_battery_2_armored_small = 1 }
+	}
+}
+#improved_dp_light_battery_2_armored_medium
+country_event = {
+	id = lic_tech.18
+	title = lic_tech.18.t
+	desc = lic_tech.18.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_dp_light_battery_2_armored_medium } 
+		has_tech = improved_dp_light_battery_2
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_dp_light_battery_2_armored_medium = 1 }
+	}
+}
+#advanced_dp_light_battery_2_converted_small
+country_event = {
+	id = lic_tech.19
+	title = lic_tech.19.t
+	desc = lic_tech.19.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_dp_light_battery_2_converted_small } 
+		has_tech = advanced_dp_light_battery_2
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_dp_light_battery_2_converted_small = 1 }
+	}
+}
+#advanced_dp_light_battery_2_converted_medium
+country_event = {
+	id = lic_tech.20
+	title = lic_tech.20.t
+	desc = lic_tech.20.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_dp_light_battery_2_converted_medium } 
+		has_tech = advanced_dp_light_battery_2
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_dp_light_battery_2_converted_medium = 1 }
+	}
+}
+#advanced_dp_light_battery_2_armored_small
+country_event = {
+	id = lic_tech.21
+	title = lic_tech.21.t
+	desc = lic_tech.21.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_dp_light_battery_2_armored_small } 
+		has_tech = advanced_dp_light_battery_2
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_dp_light_battery_2_armored_small = 1 }
+	}
+}
+#advanced_dp_light_battery_2_armored_medium
+country_event = {
+	id = lic_tech.22
+	title = lic_tech.22.t
+	desc = lic_tech.22.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_dp_light_battery_2_armored_medium } 
+		has_tech = advanced_dp_light_battery_2
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_dp_light_battery_2_armored_medium = 1 }
+	}
+}
+#improved_medium_battery_converted_small
+country_event = {
+	id = lic_tech.23
+	title = lic_tech.23.t
+	desc = lic_tech.23.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_medium_battery_converted_small } 
+		has_tech = improved_medium_battery
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_medium_battery_converted_small = 1 }
+	}
+}
+#improved_medium_battery_converted_medium
+country_event = {
+	id = lic_tech.24
+	title = lic_tech.24.t
+	desc = lic_tech.24.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_medium_battery_converted_medium } 
+		has_tech = improved_medium_battery
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_medium_battery_converted_medium = 1 }
+	}
+}
+#improved_medium_battery_armored_small
+country_event = {
+	id = lic_tech.25
+	title = lic_tech.25.t
+	desc = lic_tech.25.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_medium_battery_armored_small } 
+		has_tech = improved_medium_battery
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_medium_battery_armored_small = 1 }
+	}
+}
+#improved_medium_battery_armored_medium
+country_event = {
+	id = lic_tech.26
+	title = lic_tech.26.t
+	desc = lic_tech.26.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_medium_battery_armored_medium } 
+		has_tech = improved_medium_battery
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_medium_battery_armored_medium = 1 }
+	}
+}
+#advanced_medium_battery_converted_small
+country_event = {
+	id = lic_tech.27
+	title = lic_tech.27.t
+	desc = lic_tech.27.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_medium_battery_converted_small } 
+		has_tech = advanced_medium_battery
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_medium_battery_converted_small = 1 }
+	}
+}
+#advanced_medium_battery_converted_medium
+country_event = {
+	id = lic_tech.28
+	title = lic_tech.28.t
+	desc = lic_tech.28.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_medium_battery_converted_medium } 
+		has_tech = advanced_medium_battery
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_medium_battery_converted_medium = 1 }
+	}
+}
+#advanced_medium_battery_armored_small
+country_event = {
+	id = lic_tech.29
+	title = lic_tech.29.t
+	desc = lic_tech.29.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_medium_battery_armored_small } 
+		has_tech = advanced_medium_battery
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_medium_battery_armored_small = 1 }
+	}
+}
+#advanced_medium_battery_armored_medium
+country_event = {
+	id = lic_tech.30
+	title = lic_tech.30.t
+	desc = lic_tech.30.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_medium_battery_armored_medium } 
+		has_tech = advanced_medium_battery
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_medium_battery_armored_medium = 1 }
+	}
+}
+#modern_medium_battery_converted_small
+country_event = {
+	id = lic_tech.31
+	title = lic_tech.31.t
+	desc = lic_tech.31.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = modern_medium_battery_converted_small } 
+		has_tech = modern_medium_battery
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { modern_medium_battery_converted_small = 1 }
+	}
+}
+#modern_medium_battery_converted_medium
+country_event = {
+	id = lic_tech.32
+	title = lic_tech.32.t
+	desc = lic_tech.32.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = modern_medium_battery_converted_medium } 
+		has_tech = modern_medium_battery
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { modern_medium_battery_converted_medium = 1 }
+	}
+}
+#modern_medium_battery_armored_small
+country_event = {
+	id = lic_tech.33
+	title = lic_tech.33.t
+	desc = lic_tech.33.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = modern_medium_battery_armored_small } 
+		has_tech = modern_medium_battery
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { modern_medium_battery_armored_small = 1 }
+	}
+}
+#modern_medium_battery_armored_medium
+country_event = {
+	id = lic_tech.34
+	title = lic_tech.34.t
+	desc = lic_tech.34.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = modern_medium_battery_armored_medium } 
+		has_tech = modern_medium_battery
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { modern_medium_battery_armored_medium = 1 }
+	}
+}
+#improved_dp_medium_battery_converted_small
+country_event = {
+	id = lic_tech.35
+	title = lic_tech.35.t
+	desc = lic_tech.35.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_dp_medium_battery_converted_small } 
+		has_tech = improved_dp_medium_battery
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_dp_medium_battery_converted_small = 1 }
+	}
+}
+#improved_dp_medium_battery_converted_medium
+country_event = {
+	id = lic_tech.36
+	title = lic_tech.36.t
+	desc = lic_tech.36.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_dp_medium_battery_converted_medium } 
+		has_tech = improved_dp_medium_battery
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_dp_medium_battery_converted_medium = 1 }
+	}
+}
+#improved_dp_medium_battery_armored_small
+country_event = {
+	id = lic_tech.37
+	title = lic_tech.37.t
+	desc = lic_tech.37.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_dp_medium_battery_armored_small } 
+		has_tech = improved_dp_medium_battery
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_dp_medium_battery_armored_small = 1 }
+	}
+}
+#improved_dp_medium_battery_armored_medium
+country_event = {
+	id = lic_tech.38
+	title = lic_tech.38.t
+	desc = lic_tech.38.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_dp_medium_battery_armored_medium } 
+		has_tech = improved_dp_medium_battery
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_dp_medium_battery_armored_medium = 1 }
+	}
+}
+#advanced_dp_medium_battery_converted_small
+country_event = {
+	id = lic_tech.39
+	title = lic_tech.39.t
+	desc = lic_tech.39.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_dp_medium_battery_converted_small } 
+		has_tech = advanced_dp_medium_battery
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_dp_medium_battery_converted_small = 1 }
+	}
+}
+#advanced_dp_medium_battery_converted_medium
+country_event = {
+	id = lic_tech.40
+	title = lic_tech.40.t
+	desc = lic_tech.40.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_dp_medium_battery_converted_medium } 
+		has_tech = advanced_dp_medium_battery
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_dp_medium_battery_converted_medium = 1 }
+	}
+}
+#advanced_dp_medium_battery_armored_small
+country_event = {
+	id = lic_tech.41
+	title = lic_tech.41.t
+	desc = lic_tech.41.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_dp_medium_battery_armored_small } 
+		has_tech = advanced_dp_medium_battery
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_dp_medium_battery_armored_small = 1 }
+	}
+}
+#advanced_dp_medium_battery_armored_medium
+country_event = {
+	id = lic_tech.42
+	title = lic_tech.42.t
+	desc = lic_tech.42.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_dp_medium_battery_armored_medium } 
+		has_tech = advanced_dp_medium_battery
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_dp_medium_battery_armored_medium = 1 }
+	}
+}
+#modern_dp_medium_battery_converted_small
+country_event = {
+	id = lic_tech.43
+	title = lic_tech.43.t
+	desc = lic_tech.43.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = modern_dp_medium_battery_converted_small } 
+		has_tech = modern_dp_medium_battery
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { modern_dp_medium_battery_converted_small = 1 }
+	}
+}
+#modern_dp_medium_battery_converted_medium
+country_event = {
+	id = lic_tech.44
+	title = lic_tech.44.t
+	desc = lic_tech.44.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = modern_dp_medium_battery_converted_medium } 
+		has_tech = modern_dp_medium_battery
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { modern_dp_medium_battery_converted_medium = 1 }
+	}
+}
+#modern_dp_medium_battery_armored_small
+country_event = {
+	id = lic_tech.45
+	title = lic_tech.45.t
+	desc = lic_tech.45.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = modern_dp_medium_battery_armored_small } 
+		has_tech = modern_dp_medium_battery
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { modern_dp_medium_battery_armored_small = 1 }
+	}
+}
+#modern_dp_medium_battery_armored_medium
+country_event = {
+	id = lic_tech.46
+	title = lic_tech.46.t
+	desc = lic_tech.46.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = modern_dp_medium_battery_armored_medium } 
+		has_tech = modern_dp_medium_battery
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { modern_dp_medium_battery_armored_medium = 1 }
+	}
+}
+#basic_medium_battery_2_converted_small
+country_event = {
+	id = lic_tech.47
+	title = lic_tech.47.t
+	desc = lic_tech.47.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = basic_medium_battery_2_converted_small } 
+		has_tech = basic_medium_battery_2
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { basic_medium_battery_2_converted_small = 1 }
+	}
+}
+#basic_medium_battery_2_converted_medium
+country_event = {
+	id = lic_tech.48
+	title = lic_tech.48.t
+	desc = lic_tech.48.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = basic_medium_battery_2_converted_medium } 
+		has_tech = basic_medium_battery_2
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { basic_medium_battery_2_converted_medium = 1 }
+	}
+}
+#basic_medium_battery_2_armored_small
+country_event = {
+	id = lic_tech.49
+	title = lic_tech.49.t
+	desc = lic_tech.49.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = basic_medium_battery_2_armored_small } 
+		has_tech = basic_medium_battery_2
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { basic_medium_battery_2_armored_small = 1 }
+	}
+}
+#basic_medium_battery_2_armored_medium
+country_event = {
+	id = lic_tech.50
+	title = lic_tech.50.t
+	desc = lic_tech.50.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = basic_medium_battery_2_armored_medium } 
+		has_tech = basic_medium_battery_2
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { basic_medium_battery_2_armored_medium = 1 }
+	}
+}
+#improved_medium_battery_2_converted_small
+country_event = {
+	id = lic_tech.51
+	title = lic_tech.51.t
+	desc = lic_tech.51.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_medium_battery_2_converted_small } 
+		has_tech = improved_medium_battery_2
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_medium_battery_2_converted_small = 1 }
+	}
+}
+#improved_medium_battery_2_converted_medium
+country_event = {
+	id = lic_tech.52
+	title = lic_tech.52.t
+	desc = lic_tech.52.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_medium_battery_2_converted_medium } 
+		has_tech = improved_medium_battery_2
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_medium_battery_2_converted_medium = 1 }
+	}
+}
+#improved_medium_battery_2_armored_small
+country_event = {
+	id = lic_tech.53
+	title = lic_tech.53.t
+	desc = lic_tech.53.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_medium_battery_2_armored_small } 
+		has_tech = improved_medium_battery_2
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_medium_battery_2_armored_small = 1 }
+	}
+}
+#improved_medium_battery_2_armored_medium
+country_event = {
+	id = lic_tech.54
+	title = lic_tech.54.t
+	desc = lic_tech.54.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_medium_battery_2_armored_medium } 
+		has_tech = improved_medium_battery_2
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_medium_battery_2_armored_medium = 1 }
+	}
+}
+#advanced_medium_battery_2_converted_small
+country_event = {
+	id = lic_tech.55
+	title = lic_tech.55.t
+	desc = lic_tech.55.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_medium_battery_2_converted_small } 
+		has_tech = advanced_medium_battery_2
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_medium_battery_2_converted_small = 1 }
+	}
+}
+#advanced_medium_battery_2_converted_medium
+country_event = {
+	id = lic_tech.56
+	title = lic_tech.56.t
+	desc = lic_tech.56.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_medium_battery_2_converted_medium } 
+		has_tech = advanced_medium_battery_2
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_medium_battery_2_converted_medium = 1 }
+	}
+}
+#advanced_medium_battery_2_armored_small
+country_event = {
+	id = lic_tech.57
+	title = lic_tech.57.t
+	desc = lic_tech.57.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_medium_battery_2_armored_small } 
+		has_tech = advanced_medium_battery_2
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_medium_battery_2_armored_small = 1 }
+	}
+}
+#advanced_medium_battery_2_armored_medium
+country_event = {
+	id = lic_tech.58
+	title = lic_tech.58.t
+	desc = lic_tech.58.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_medium_battery_2_armored_medium } 
+		has_tech = advanced_medium_battery_2
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_medium_battery_2_armored_medium = 1 }
+	}
+}
+#modern_medium_battery_2_converted_small
+country_event = {
+	id = lic_tech.59
+	title = lic_tech.59.t
+	desc = lic_tech.59.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = modern_medium_battery_2_converted_small } 
+		has_tech = modern_medium_battery_2
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { modern_medium_battery_2_converted_small = 1 }
+	}
+}
+#modern_medium_battery_2_converted_medium
+country_event = {
+	id = lic_tech.60
+	title = lic_tech.60.t
+	desc = lic_tech.60.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = modern_medium_battery_2_converted_medium } 
+		has_tech = modern_medium_battery_2
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { modern_medium_battery_2_converted_medium = 1 }
+	}
+}
+#modern_medium_battery_2_armored_small
+country_event = {
+	id = lic_tech.61
+	title = lic_tech.61.t
+	desc = lic_tech.61.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = modern_medium_battery_2_armored_small } 
+		has_tech = modern_medium_battery_2
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { modern_medium_battery_2_armored_small = 1 }
+	}
+}
+#modern_medium_battery_2_armored_medium
+country_event = {
+	id = lic_tech.62
+	title = lic_tech.62.t
+	desc = lic_tech.62.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = modern_medium_battery_2_armored_medium } 
+		has_tech = modern_medium_battery_2
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { modern_medium_battery_2_armored_medium = 1 }
+	}
+}
+#improved_heavy_battery_converted_small
+country_event = {
+	id = lic_tech.63
+	title = lic_tech.63.t
+	desc = lic_tech.63.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_heavy_battery_converted_small } 
+		has_tech = improved_heavy_battery
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_heavy_battery_converted_small = 1 }
+	}
+}
+#improved_heavy_battery_converted_medium
+country_event = {
+	id = lic_tech.64
+	title = lic_tech.64.t
+	desc = lic_tech.64.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_heavy_battery_converted_medium } 
+		has_tech = improved_heavy_battery
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_heavy_battery_converted_medium = 1 }
+	}
+}
+#improved_heavy_battery_converted_large
+country_event = {
+	id = lic_tech.65
+	title = lic_tech.65.t
+	desc = lic_tech.65.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_heavy_battery_converted_large } 
+		has_tech = improved_heavy_battery
+		has_tech = advanced_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_heavy_battery_converted_large = 1 }
+	}
+}
+#improved_heavy_battery_armored_small
+country_event = {
+	id = lic_tech.66
+	title = lic_tech.66.t
+	desc = lic_tech.66.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_heavy_battery_armored_small } 
+		has_tech = improved_heavy_battery
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_heavy_battery_armored_small = 1 }
+	}
+}
+#improved_heavy_battery_armored_medium
+country_event = {
+	id = lic_tech.67
+	title = lic_tech.67.t
+	desc = lic_tech.67.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_heavy_battery_armored_medium } 
+		has_tech = improved_heavy_battery
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_heavy_battery_armored_medium = 1 }
+	}
+}
+#improved_heavy_battery_armored_large
+country_event = {
+	id = lic_tech.68
+	title = lic_tech.68.t
+	desc = lic_tech.68.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_heavy_battery_armored_large } 
+		has_tech = improved_heavy_battery
+		has_tech = advanced_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_heavy_battery_armored_large = 1 }
+	}
+}
+#advanced_heavy_battery_converted_small
+country_event = {
+	id = lic_tech.69
+	title = lic_tech.69.t
+	desc = lic_tech.69.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_converted_small } 
+		has_tech = advanced_heavy_battery
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_converted_small = 1 }
+	}
+}
+#advanced_heavy_battery_converted_medium
+country_event = {
+	id = lic_tech.70
+	title = lic_tech.70.t
+	desc = lic_tech.70.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_converted_medium } 
+		has_tech = advanced_heavy_battery
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_converted_medium = 1 }
+	}
+}
+#advanced_heavy_battery_converted_large
+country_event = {
+	id = lic_tech.71
+	title = lic_tech.71.t
+	desc = lic_tech.71.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_converted_large } 
+		has_tech = advanced_heavy_battery
+		has_tech = advanced_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_converted_large = 1 }
+	}
+}
+#advanced_heavy_battery_armored_small
+country_event = {
+	id = lic_tech.72
+	title = lic_tech.72.t
+	desc = lic_tech.72.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_armored_small } 
+		has_tech = advanced_heavy_battery
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_armored_small = 1 }
+	}
+}
+#advanced_heavy_battery_armored_medium
+country_event = {
+	id = lic_tech.73
+	title = lic_tech.73.t
+	desc = lic_tech.73.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_armored_medium } 
+		has_tech = advanced_heavy_battery
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_armored_medium = 1 }
+	}
+}
+#advanced_heavy_battery_armored_large
+country_event = {
+	id = lic_tech.74
+	title = lic_tech.74.t
+	desc = lic_tech.74.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_armored_large } 
+		has_tech = advanced_heavy_battery
+		has_tech = advanced_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_armored_large = 1 }
+	}
+}
+#basic_heavy_battery_2_converted_small
+country_event = {
+	id = lic_tech.75
+	title = lic_tech.75.t
+	desc = lic_tech.75.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = basic_heavy_battery_2_converted_small } 
+		has_tech = basic_heavy_battery_2
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { basic_heavy_battery_2_converted_small = 1 }
+	}
+}
+#basic_heavy_battery_2_converted_medium
+country_event = {
+	id = lic_tech.76
+	title = lic_tech.76.t
+	desc = lic_tech.76.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = basic_heavy_battery_2_converted_medium } 
+		has_tech = basic_heavy_battery_2
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { basic_heavy_battery_2_converted_medium = 1 }
+	}
+}
+#basic_heavy_battery_2_converted_large
+country_event = {
+	id = lic_tech.77
+	title = lic_tech.77.t
+	desc = lic_tech.77.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = basic_heavy_battery_2_converted_large } 
+		has_tech = basic_heavy_battery_2
+		has_tech = advanced_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { basic_heavy_battery_2_converted_large = 1 }
+	}
+}
+#basic_heavy_battery_2_armored_small
+country_event = {
+	id = lic_tech.78
+	title = lic_tech.78.t
+	desc = lic_tech.78.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = basic_heavy_battery_2_armored_small } 
+		has_tech = basic_heavy_battery_2
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { basic_heavy_battery_2_armored_small = 1 }
+	}
+}
+#basic_heavy_battery_2_armored_medium
+country_event = {
+	id = lic_tech.79
+	title = lic_tech.79.t
+	desc = lic_tech.79.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = basic_heavy_battery_2_armored_medium } 
+		has_tech = basic_heavy_battery_2
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { basic_heavy_battery_2_armored_medium = 1 }
+	}
+}
+#basic_heavy_battery_2_armored_large
+country_event = {
+	id = lic_tech.80
+	title = lic_tech.80.t
+	desc = lic_tech.80.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = basic_heavy_battery_2_armored_large } 
+		has_tech = basic_heavy_battery_2
+		has_tech = advanced_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { basic_heavy_battery_2_armored_large = 1 }
+	}
+}
+#advanced_heavy_battery_2_converted_small
+country_event = {
+	id = lic_tech.81
+	title = lic_tech.81.t
+	desc = lic_tech.81.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_2_converted_small } 
+		has_tech = advanced_heavy_battery_2
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_2_converted_small = 1 }
+	}
+}
+#advanced_heavy_battery_2_converted_medium
+country_event = {
+	id = lic_tech.82
+	title = lic_tech.82.t
+	desc = lic_tech.82.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_2_converted_medium } 
+		has_tech = advanced_heavy_battery_2
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_2_converted_medium = 1 }
+	}
+}
+#advanced_heavy_battery_2_converted_large
+country_event = {
+	id = lic_tech.83
+	title = lic_tech.83.t
+	desc = lic_tech.83.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_2_converted_large } 
+		has_tech = advanced_heavy_battery_2
+		has_tech = advanced_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_2_converted_large = 1 }
+	}
+}
+#advanced_heavy_battery_2_armored_small
+country_event = {
+	id = lic_tech.84
+	title = lic_tech.84.t
+	desc = lic_tech.84.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_2_armored_small } 
+		has_tech = advanced_heavy_battery_2
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_2_armored_small = 1 }
+	}
+}
+#advanced_heavy_battery_2_armored_medium
+country_event = {
+	id = lic_tech.85
+	title = lic_tech.85.t
+	desc = lic_tech.85.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_2_armored_medium } 
+		has_tech = advanced_heavy_battery_2
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_2_armored_medium = 1 }
+	}
+}
+#advanced_heavy_battery_2_armored_large
+country_event = {
+	id = lic_tech.86
+	title = lic_tech.86.t
+	desc = lic_tech.86.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_2_armored_large } 
+		has_tech = advanced_heavy_battery_2
+		has_tech = advanced_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_2_armored_large = 1 }
+	}
+}
+#basic_heavy_battery_3_converted_small
+country_event = {
+	id = lic_tech.87
+	title = lic_tech.87.t
+	desc = lic_tech.87.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = basic_heavy_battery_3_converted_small } 
+		has_tech = basic_heavy_battery_3
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { basic_heavy_battery_3_converted_small = 1 }
+	}
+}
+#basic_heavy_battery_3_converted_medium
+country_event = {
+	id = lic_tech.88
+	title = lic_tech.88.t
+	desc = lic_tech.88.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = basic_heavy_battery_3_converted_medium } 
+		has_tech = basic_heavy_battery_3
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { basic_heavy_battery_3_converted_medium = 1 }
+	}
+}
+#basic_heavy_battery_3_converted_large
+country_event = {
+	id = lic_tech.89
+	title = lic_tech.89.t
+	desc = lic_tech.89.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = basic_heavy_battery_3_converted_large } 
+		has_tech = basic_heavy_battery_3
+		has_tech = advanced_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { basic_heavy_battery_3_converted_large = 1 }
+	}
+}
+#basic_heavy_battery_3_armored_small
+country_event = {
+	id = lic_tech.90
+	title = lic_tech.90.t
+	desc = lic_tech.90.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = basic_heavy_battery_3_armored_small } 
+		has_tech = basic_heavy_battery_3
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { basic_heavy_battery_3_armored_small = 1 }
+	}
+}
+#basic_heavy_battery_3_armored_medium
+country_event = {
+	id = lic_tech.91
+	title = lic_tech.91.t
+	desc = lic_tech.91.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = basic_heavy_battery_3_armored_medium } 
+		has_tech = basic_heavy_battery_3
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { basic_heavy_battery_3_armored_medium = 1 }
+	}
+}
+#basic_heavy_battery_3_armored_large
+country_event = {
+	id = lic_tech.92
+	title = lic_tech.92.t
+	desc = lic_tech.92.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = basic_heavy_battery_3_armored_large } 
+		has_tech = basic_heavy_battery_3
+		has_tech = advanced_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { basic_heavy_battery_3_armored_large = 1 }
+	}
+}
+#improved_heavy_battery_3_converted_small
+country_event = {
+	id = lic_tech.93
+	title = lic_tech.93.t
+	desc = lic_tech.93.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_heavy_battery_3_converted_small } 
+		has_tech = improved_heavy_battery_3
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_heavy_battery_3_converted_small = 1 }
+	}
+}
+#improved_heavy_battery_3_converted_medium
+country_event = {
+	id = lic_tech.94
+	title = lic_tech.94.t
+	desc = lic_tech.94.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_heavy_battery_3_converted_medium } 
+		has_tech = improved_heavy_battery_3
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_heavy_battery_3_converted_medium = 1 }
+	}
+}
+#improved_heavy_battery_3_converted_large
+country_event = {
+	id = lic_tech.95
+	title = lic_tech.95.t
+	desc = lic_tech.95.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_heavy_battery_3_converted_large } 
+		has_tech = improved_heavy_battery_3
+		has_tech = advanced_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_heavy_battery_3_converted_large = 1 }
+	}
+}
+#improved_heavy_battery_3_armored_small
+country_event = {
+	id = lic_tech.96
+	title = lic_tech.96.t
+	desc = lic_tech.96.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_heavy_battery_3_armored_small } 
+		has_tech = improved_heavy_battery_3
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_heavy_battery_3_armored_small = 1 }
+	}
+}
+#improved_heavy_battery_3_armored_medium
+country_event = {
+	id = lic_tech.97
+	title = lic_tech.97.t
+	desc = lic_tech.97.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_heavy_battery_3_armored_medium } 
+		has_tech = improved_heavy_battery_3
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_heavy_battery_3_armored_medium = 1 }
+	}
+}
+#improved_heavy_battery_3_armored_large
+country_event = {
+	id = lic_tech.98
+	title = lic_tech.98.t
+	desc = lic_tech.98.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_heavy_battery_3_armored_large } 
+		has_tech = improved_heavy_battery_3
+		has_tech = advanced_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_heavy_battery_3_armored_large = 1 }
+	}
+}
+#advanced_heavy_battery_3_converted_small
+country_event = {
+	id = lic_tech.99
+	title = lic_tech.99.t
+	desc = lic_tech.99.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_3_converted_small } 
+		has_tech = advanced_heavy_battery_3
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_3_converted_small = 1 }
+	}
+}
+#advanced_heavy_battery_3_converted_medium
+country_event = {
+	id = lic_tech.100
+	title = lic_tech.100.t
+	desc = lic_tech.100.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_3_converted_medium } 
+		has_tech = advanced_heavy_battery_3
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_3_converted_medium = 1 }
+	}
+}
+#advanced_heavy_battery_3_converted_large
+country_event = {
+	id = lic_tech.101
+	title = lic_tech.101.t
+	desc = lic_tech.101.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_3_converted_large } 
+		has_tech = advanced_heavy_battery_3
+		has_tech = advanced_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_3_converted_large = 1 }
+	}
+}
+#advanced_heavy_battery_3_armored_small
+country_event = {
+	id = lic_tech.102
+	title = lic_tech.102.t
+	desc = lic_tech.102.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_3_armored_small } 
+		has_tech = advanced_heavy_battery_3
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_3_armored_small = 1 }
+	}
+}
+#advanced_heavy_battery_3_armored_medium
+country_event = {
+	id = lic_tech.103
+	title = lic_tech.103.t
+	desc = lic_tech.103.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_3_armored_medium } 
+		has_tech = advanced_heavy_battery_3
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_3_armored_medium = 1 }
+	}
+}
+#advanced_heavy_battery_3_armored_large
+country_event = {
+	id = lic_tech.104
+	title = lic_tech.104.t
+	desc = lic_tech.104.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_3_armored_large } 
+		has_tech = advanced_heavy_battery_3
+		has_tech = advanced_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_3_armored_large = 1 }
+	}
+}
+#improved_heavy_battery_4_converted_small
+country_event = {
+	id = lic_tech.105
+	title = lic_tech.105.t
+	desc = lic_tech.105.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_heavy_battery_4_converted_small } 
+		has_tech = improved_heavy_battery_4
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_heavy_battery_4_converted_small = 1 }
+	}
+}
+#improved_heavy_battery_4_converted_medium
+country_event = {
+	id = lic_tech.106
+	title = lic_tech.106.t
+	desc = lic_tech.106.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_heavy_battery_4_converted_medium } 
+		has_tech = improved_heavy_battery_4
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_heavy_battery_4_converted_medium = 1 }
+	}
+}
+#improved_heavy_battery_4_converted_large
+country_event = {
+	id = lic_tech.107
+	title = lic_tech.107.t
+	desc = lic_tech.107.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_heavy_battery_4_converted_large } 
+		has_tech = improved_heavy_battery_4
+		has_tech = advanced_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_heavy_battery_4_converted_large = 1 }
+	}
+}
+#improved_heavy_battery_4_armored_small
+country_event = {
+	id = lic_tech.108
+	title = lic_tech.108.t
+	desc = lic_tech.108.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_heavy_battery_4_armored_small } 
+		has_tech = improved_heavy_battery_4
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_heavy_battery_4_armored_small = 1 }
+	}
+}
+#improved_heavy_battery_4_armored_medium
+country_event = {
+	id = lic_tech.109
+	title = lic_tech.109.t
+	desc = lic_tech.109.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_heavy_battery_4_armored_medium } 
+		has_tech = improved_heavy_battery_4
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_heavy_battery_4_armored_medium = 1 }
+	}
+}
+#improved_heavy_battery_4_armored_large
+country_event = {
+	id = lic_tech.110
+	title = lic_tech.110.t
+	desc = lic_tech.110.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_heavy_battery_4_armored_large } 
+		has_tech = improved_heavy_battery_4
+		has_tech = advanced_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_heavy_battery_4_armored_large = 1 }
+	}
+}
+#advanced_heavy_battery_4_converted_small
+country_event = {
+	id = lic_tech.111
+	title = lic_tech.111.t
+	desc = lic_tech.111.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_4_converted_small } 
+		has_tech = advanced_heavy_battery_4
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_4_converted_small = 1 }
+	}
+}
+#advanced_heavy_battery_4_converted_medium
+country_event = {
+	id = lic_tech.112
+	title = lic_tech.112.t
+	desc = lic_tech.112.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_4_converted_medium } 
+		has_tech = advanced_heavy_battery_4
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_4_converted_medium = 1 }
+	}
+}
+#advanced_heavy_battery_4_converted_large
+country_event = {
+	id = lic_tech.113
+	title = lic_tech.113.t
+	desc = lic_tech.113.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_4_converted_large } 
+		has_tech = advanced_heavy_battery_4
+		has_tech = advanced_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_4_converted_large = 1 }
+	}
+}
+#advanced_heavy_battery_4_armored_small
+country_event = {
+	id = lic_tech.114
+	title = lic_tech.114.t
+	desc = lic_tech.114.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_4_armored_small } 
+		has_tech = advanced_heavy_battery_4
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_4_armored_small = 1 }
+	}
+}
+#advanced_heavy_battery_4_armored_medium
+country_event = {
+	id = lic_tech.115
+	title = lic_tech.115.t
+	desc = lic_tech.115.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_4_armored_medium } 
+		has_tech = advanced_heavy_battery_4
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_4_armored_medium = 1 }
+	}
+}
+#advanced_heavy_battery_4_armored_large
+country_event = {
+	id = lic_tech.116
+	title = lic_tech.116.t
+	desc = lic_tech.116.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_4_armored_large } 
+		has_tech = advanced_heavy_battery_4
+		has_tech = advanced_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_4_armored_large = 1 }
+	}
+}
+#improved_heavy_battery_5_converted_small
+country_event = {
+	id = lic_tech.117
+	title = lic_tech.117.t
+	desc = lic_tech.117.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_heavy_battery_5_converted_small } 
+		has_tech = improved_heavy_battery_5
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_heavy_battery_5_converted_small = 1 }
+	}
+}
+#improved_heavy_battery_5_converted_medium
+country_event = {
+	id = lic_tech.118
+	title = lic_tech.118.t
+	desc = lic_tech.118.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_heavy_battery_5_converted_medium } 
+		has_tech = improved_heavy_battery_5
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_heavy_battery_5_converted_medium = 1 }
+	}
+}
+#improved_heavy_battery_5_converted_large
+country_event = {
+	id = lic_tech.119
+	title = lic_tech.119.t
+	desc = lic_tech.119.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_heavy_battery_5_converted_large } 
+		has_tech = improved_heavy_battery_5
+		has_tech = advanced_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_heavy_battery_5_converted_large = 1 }
+	}
+}
+#improved_heavy_battery_5_armored_small
+country_event = {
+	id = lic_tech.120
+	title = lic_tech.120.t
+	desc = lic_tech.120.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_heavy_battery_5_armored_small } 
+		has_tech = improved_heavy_battery_5
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_heavy_battery_5_armored_small = 1 }
+	}
+}
+#improved_heavy_battery_5_armored_medium
+country_event = {
+	id = lic_tech.121
+	title = lic_tech.121.t
+	desc = lic_tech.121.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_heavy_battery_5_armored_medium } 
+		has_tech = improved_heavy_battery_5
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_heavy_battery_5_armored_medium = 1 }
+	}
+}
+#improved_heavy_battery_5_armored_large
+country_event = {
+	id = lic_tech.122
+	title = lic_tech.122.t
+	desc = lic_tech.122.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = improved_heavy_battery_5_armored_large } 
+		has_tech = improved_heavy_battery_5
+		has_tech = advanced_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { improved_heavy_battery_5_armored_large = 1 }
+	}
+}
+#advanced_heavy_battery_5_converted_small
+country_event = {
+	id = lic_tech.123
+	title = lic_tech.123.t
+	desc = lic_tech.123.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_5_converted_small } 
+		has_tech = advanced_heavy_battery_5
+		has_tech = airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_5_converted_small = 1 }
+	}
+}
+#advanced_heavy_battery_5_converted_medium
+country_event = {
+	id = lic_tech.124
+	title = lic_tech.124.t
+	desc = lic_tech.124.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_5_converted_medium } 
+		has_tech = advanced_heavy_battery_5
+		has_tech = improved_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_5_converted_medium = 1 }
+	}
+}
+#advanced_heavy_battery_5_converted_large
+country_event = {
+	id = lic_tech.125
+	title = lic_tech.125.t
+	desc = lic_tech.125.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_5_converted_large } 
+		has_tech = advanced_heavy_battery_5
+		has_tech = advanced_airplane_launcher
+		has_tech = basic_ship_hull_carrier
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_5_converted_large = 1 }
+	}
+}
+#advanced_heavy_battery_5_armored_small
+country_event = {
+	id = lic_tech.126
+	title = lic_tech.126.t
+	desc = lic_tech.126.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_5_armored_small } 
+		has_tech = advanced_heavy_battery_5
+		has_tech = airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_5_armored_small = 1 }
+	}
+}
+#advanced_heavy_battery_5_armored_medium
+country_event = {
+	id = lic_tech.127
+	title = lic_tech.127.t
+	desc = lic_tech.127.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_5_armored_medium } 
+		has_tech = advanced_heavy_battery_5
+		has_tech = improved_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_5_armored_medium = 1 }
+	}
+}
+#advanced_heavy_battery_5_armored_large
+country_event = {
+	id = lic_tech.128
+	title = lic_tech.128.t
+	desc = lic_tech.128.desc
+	hidden = yes
+	trigger = {
+		has_country_flag = Lic_surface_hybrids
+		not = { has_tech = advanced_heavy_battery_5_armored_large } 
+		has_tech = advanced_heavy_battery_5
+		has_tech = advanced_airplane_launcher
+		has_tech = armoured_hangar
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_technology = { advanced_heavy_battery_5_armored_large = 1 }
+	}
+}

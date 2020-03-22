@@ -1,0 +1,12 @@
+
+nrm_cruiser_battery_H_x02
+nrm_cruiser_battery_PB_2x2
+nrm_cruiser_battery_PB_3x2
+nrm_cruiser_battery_L_x02
+nrm_cruiser_battery_L_x03
+nrm_cruiser_battery_H_x03
+nrm_cruiser_battery_DP_L_x03
+nrm_cruiser_battery_DP_H_x03
+nrm_cruiser_battery_PB_2x1
+nrm_cruiser_battery_PB_3x1
+nrm_cruiser_battery_PB_4x1

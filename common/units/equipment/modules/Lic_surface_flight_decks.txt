@@ -1,0 +1,450 @@
+equipment_modules = {
+	# Battle Carrier / Aircraft Cruiser Pure flight decks
+	#Capitals
+	nrm_capital_flightdeck_CHL_015 = {
+		category = nrm_capital_flightdeck
+		gui_category = nrm_capital_flightdeck
+		
+		
+		manpower = 98
+		add_stats = {
+			build_cost_ic = 860
+			max_strength = 15
+			supply_consumption = 0.04
+			surface_visibility = 0.86
+			carrier_size = 15
+			
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0685263283060418
+			max_strength = -0.05
+			reliability = -0.045
+			naval_speed = -0.0921661123149942
+			armor_value = -0.2
+			fuel_consumption = 0.01875
+			
+		}
+		build_cost_resources = {
+			
+		}
+		dismantle_cost_ic = 172
+		
+	}
+	nrm_capital_flightdeck_CHL_020 = {
+		category = nrm_capital_flightdeck
+		gui_category = nrm_capital_flightdeck
+		
+		
+		manpower = 135
+		add_stats = {
+			build_cost_ic = 950
+			max_strength = 18
+			supply_consumption = 0.054
+			surface_visibility = 0.95
+			carrier_size = 20
+			
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0979150491562421
+			max_strength = -0.05
+			reliability = -0.06
+			naval_speed = -0.11313852148097
+			armor_value = -0.2
+			fuel_consumption = 0.0333333333333333
+			
+		}
+		build_cost_resources = {
+			
+		}
+		dismantle_cost_ic = 190
+		
+	}
+	nrm_capital_flightdeck_CHL_025 = {
+		category = nrm_capital_flightdeck_long
+		gui_category = nrm_capital_flightdeck
+		
+		
+		manpower = 172
+		add_stats = {
+			build_cost_ic = 1060
+			max_strength = 23
+			supply_consumption = 0.067
+			surface_visibility = 1.06
+			carrier_size = 25
+			
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.13125
+			max_strength = -0.05
+			reliability = -0.075
+			naval_speed = -0.135126269912361
+			armor_value = -0.4
+			fuel_consumption = 0.0520833333333333
+			
+		}
+		build_cost_resources = {
+			
+		}
+		dismantle_cost_ic = 212
+		
+	}
+	nrm_capital_flightdeck_CHL_030 = {
+		category = nrm_capital_flightdeck_long
+		gui_category = nrm_capital_flightdeck
+		
+		
+		manpower = 211
+		add_stats = {
+			build_cost_ic = 1200
+			max_strength = 28
+			supply_consumption = 0.081
+			surface_visibility = 1.2
+			carrier_size = 30
+			
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.168109469298328
+			max_strength = -0.05
+			reliability = -0.09
+			naval_speed = -0.158042045975588
+			armor_value = -0.4
+			fuel_consumption = 0.075
+			
+		}
+		build_cost_resources = {
+			
+		}
+		dismantle_cost_ic = 240
+		
+	}
+
+	nrm_capital_flightdeck_AHL_015 = {
+		category = nrm_capital_flightdeck
+		gui_category = nrm_capital_flightdeck
+		
+		
+		manpower = 77
+		add_stats = {
+			build_cost_ic = 1270
+			max_strength = 25
+			supply_consumption = 0.038
+			surface_visibility = 1.27
+			carrier_size = 12
+			
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0530336431702998
+			max_strength = 0.1
+			reliability = -0.03
+			naval_speed = -0.0801149943379458
+			fuel_consumption = 0.012
+			
+		}
+		build_cost_resources = {
+			
+		}
+		dismantle_cost_ic = 254
+		
+	}
+	nrm_capital_flightdeck_AHL_020 = {
+		category = nrm_capital_flightdeck
+		gui_category = nrm_capital_flightdeck
+		
+		
+		manpower = 106
+		add_stats = {
+			build_cost_ic = 1340
+			max_strength = 28
+			supply_consumption = 0.051
+			surface_visibility = 1.34
+			carrier_size = 16
+			
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0740625
+			max_strength = 0.1
+			reliability = -0.04
+			naval_speed = -0.0962744514520556
+			fuel_consumption = 0.0213333333333333
+			
+		}
+		build_cost_resources = {
+			
+		}
+		dismantle_cost_ic = 268
+		
+	}
+	nrm_capital_flightdeck_AHL_025 = {
+		category = nrm_capital_flightdeck_long
+		gui_category = nrm_capital_flightdeck
+		
+		
+		manpower = 135
+		add_stats = {
+			build_cost_ic = 1420
+			max_strength = 33
+			supply_consumption = 0.064
+			surface_visibility = 1.42
+			carrier_size = 20
+			
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0979150491562421
+			max_strength = 0.1
+			reliability = -0.05
+			naval_speed = -0.11313852148097
+			fuel_consumption = 0.0333333333333333
+			
+		}
+		build_cost_resources = {
+			
+		}
+		dismantle_cost_ic = 284
+		
+	}
+	nrm_capital_flightdeck_AHL_030 = {
+		category = nrm_capital_flightdeck_long
+		gui_category = nrm_capital_flightdeck
+		
+		
+		manpower = 165
+		add_stats = {
+			build_cost_ic = 1520
+			max_strength = 38
+			supply_consumption = 0.077
+			surface_visibility = 1.52
+			carrier_size = 24
+			
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.124289538425243
+			max_strength = 0.1
+			reliability = -0.06
+			naval_speed = -0.130651959423149
+			fuel_consumption = 0.048
+			
+		}
+		build_cost_resources = {
+			
+		}
+		dismantle_cost_ic = 304
+		
+	}
+	
+	#Cruisers
+	nrm_cruiser_flightdeck_CHL_010 = {
+		category = nrm_cruiser_flightdeck
+		gui_category = nrm_cruiser_flightdeck
+		
+		
+		manpower = 63
+		add_stats = {
+			build_cost_ic = 580
+			max_strength = 8
+			supply_consumption = 0.027
+			surface_visibility = 0.58
+			carrier_size = 10
+			
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.038161167
+			max_strength = -0.05
+			reliability = -0.03
+			naval_speed = -0.0620209795
+			armor_value = -0.2
+			fuel_consumption = 0.008333333
+			
+		}
+		build_cost_resources = {
+			
+		}
+		dismantle_cost_ic = 117
+		
+	}
+	nrm_cruiser_flightdeck_CHL_015 = {
+		category = nrm_cruiser_flightdeck
+		gui_category = nrm_cruiser_flightdeck
+		
+		
+		manpower = 98
+		add_stats = {
+			build_cost_ic = 860
+			max_strength = 15
+			supply_consumption = 0.04
+			surface_visibility = 0.86
+			carrier_size = 15
+			
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0685263283060418
+			max_strength = -0.05
+			reliability = -0.045
+			naval_speed = -0.0921661123149942
+			armor_value = -0.2
+			fuel_consumption = 0.01875
+			
+		}
+		build_cost_resources = {
+			
+		}
+		dismantle_cost_ic = 172
+		
+	}
+	nrm_cruiser_flightdeck_CHL_020 = {
+		category = nrm_cruiser_flightdeck_long
+		gui_category = nrm_cruiser_flightdeck
+		
+		
+		manpower = 135
+		add_stats = {
+			build_cost_ic = 950
+			max_strength = 18
+			supply_consumption = 0.054
+			surface_visibility = 0.95
+			carrier_size = 20
+			
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0979150491562421
+			max_strength = -0.05
+			reliability = -0.06
+			naval_speed = -0.11313852148097
+			armor_value = -0.4
+			fuel_consumption = 0.0333333333333333
+			
+		}
+		build_cost_resources = {
+			
+		}
+		dismantle_cost_ic = 190
+		
+	}
+	
+	nrm_cruiser_flightdeck_AHL_010 = {
+		category = nrm_cruiser_flightdeck
+		gui_category = nrm_cruiser_flightdeck
+		
+		
+		manpower = 50
+		add_stats = {
+			build_cost_ic = 1000
+			max_strength = 15
+			supply_consumption = 0.025
+			surface_visibility = 1.01
+			carrier_size = 8
+			
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.029848777
+			max_strength = 0.1
+			reliability = -0.02
+			naval_speed = -0.0553518
+			fuel_consumption = 0.005333
+			
+		}
+		build_cost_resources = {
+			
+		}
+		dismantle_cost_ic = 200
+		
+	}
+	nrm_cruiser_flightdeck_AHL_015 = {
+		category = nrm_cruiser_flightdeck
+		gui_category = nrm_cruiser_flightdeck
+		
+		
+		manpower = 77
+		add_stats = {
+			build_cost_ic = 1270
+			max_strength = 25
+			supply_consumption = 0.038
+			surface_visibility = 1.27
+			carrier_size = 12
+			
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0530336431702998
+			max_strength = 0.1
+			reliability = -0.03
+			naval_speed = -0.0801149943379458
+			fuel_consumption = 0.012
+			
+		}
+		build_cost_resources = {
+			
+		}
+		dismantle_cost_ic = 254
+		
+	}
+	nrm_cruiser_flightdeck_AHL_020 = {
+		category = nrm_cruiser_flightdeck_long
+		gui_category = nrm_cruiser_flightdeck
+		
+		
+		manpower = 106
+		add_stats = {
+			build_cost_ic = 1340
+			max_strength = 28
+			supply_consumption = 0.051
+			surface_visibility = 1.34
+			carrier_size = 16
+			
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0740625
+			max_strength = 0.1
+			reliability = -0.04
+			naval_speed = -0.0962744514520556
+			fuel_consumption = 0.0213333333333333
+			
+		}
+		build_cost_resources = {
+			
+		}
+		dismantle_cost_ic = 268
+		
+	}
+	
+}	

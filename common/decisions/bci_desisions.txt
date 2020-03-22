@@ -1,0 +1,194 @@
+#The Boys down in R&D have an idea.
+#It's so crazy it just might work.
+#We are going to need the top minds on this.
+
+Battle_Carrier_Ise_NRM = {
+	Ise_Easy_Mode = {
+		ai_will_do = {
+			factor = 0
+		}
+		visible = {
+			not = { has_country_flag = Ise_Surcouf_Easy_Mode }
+		}
+		available = {
+			not = { has_country_flag = Ise_Surcouf_Easy_Mode }
+		}
+		complete_effect = {
+			set_country_flag = Ise_Surcouf_Easy_Mode
+		}
+		
+		days_re_enable = 0
+	}
+	Ise_Normal_Mode = {
+		ai_will_do = {
+			factor = 0
+		}
+		visible = {
+			has_country_flag = Ise_Surcouf_Easy_Mode
+		}
+		available = {
+			has_country_flag = Ise_Surcouf_Easy_Mode
+		}
+		complete_effect = {
+			clr_country_flag = Ise_Surcouf_Easy_Mode
+		}
+		
+		days_re_enable = 0
+	}
+	
+	Heavy_Flight_Deck_B = {
+			
+		ai_will_do = {
+			factor = 0
+		}
+			
+		visible = {
+			not = { has_country_flag = Lic_surface_hybrids }
+		}
+			
+		available = {
+			if = {
+				limit = { 
+					not = { has_country_flag = Ise_Surcouf_Easy_Mode } 
+				}
+				and = {
+					or = {
+						has_tech = basic_ship_hull_carrier
+						has_tech = armoured_hangar
+					}
+					has_tech = airplane_launcher
+					has_tech = basic_battery
+					has_political_power > 20
+					has_navy_experience > 10 
+				}
+			}
+			if = { 
+				limit = { 
+					has_country_flag = Ise_Surcouf_Easy_Mode 
+				}
+				and = {
+					or = {
+						has_tech = basic_ship_hull_carrier
+						has_tech = armoured_hangar
+					}
+					has_tech = airplane_launcher
+					has_tech = basic_battery
+				}
+			}
+		}
+		
+		complete_effect = {
+			if = {
+				limit = { 
+					not = { has_country_flag = Ise_Surcouf_Easy_Mode } 
+				}
+				add_political_power = -20
+				navy_experience = -10 
+			}
+			set_country_flag = Lic_surface_hybrids
+			set_technology = { surface_hybrid_flightdeck_converted_small = 1 }
+		}
+		
+		days_re_enable = 0
+		# days_remove = 0
+		# fire_only_once = yes
+	}
+	
+	Submarine_Flight_Deck_B = {
+			
+		ai_will_do = {
+			factor = 0
+		}
+			
+		visible = {
+			not = { has_country_flag = Lic_sub_surface_hybrids }
+			#not = { has_country_flag = Lic_surface_hybrids }
+		}
+			
+		available = {
+			if = {
+				limit = { 
+					not = { has_country_flag = Ise_Surcouf_Easy_Mode } 
+				}
+				and = {
+					has_tech = airplane_launcher
+					has_tech = early_ship_hull_submarine
+					has_political_power > 20
+					has_navy_experience > 10
+				}
+			}
+			if = {
+				limit = { 
+					has_country_flag = Ise_Surcouf_Easy_Mode 
+				}
+				and = {
+					has_tech = airplane_launcher
+					has_tech = early_ship_hull_submarine
+				}
+			}
+		}
+		
+		complete_effect = {
+			if = {
+				limit = { 
+					not = { has_country_flag = Ise_Surcouf_Easy_Mode } 
+				}
+				add_political_power = -20
+				navy_experience = -10 
+			}
+			set_country_flag = Lic_sub_surface_hybrids
+			set_technology = { submarine_hanger_small = 1 }
+		}
+		
+		days_re_enable = 0
+		# days_remove = 0
+		# fire_only_once = yes
+	}
+	
+	Submarine_Turret_B = {
+			
+		ai_will_do = {
+			factor = 0
+		}
+			
+		visible = {
+			not = { has_country_flag = Lic_submarine_turrets }
+		}
+			
+		available = {
+			if = {
+				limit = { 
+					not = { has_country_flag = Ise_Surcouf_Easy_Mode } 
+				}
+				and = {
+					has_tech = early_ship_hull_submarine
+					has_political_power > 20
+					has_navy_experience > 10
+				}
+			}
+			if = {
+				limit = { 
+					has_country_flag = Ise_Surcouf_Easy_Mode 
+				}
+				and = {
+					has_tech = early_ship_hull_submarine
+				}
+			}
+		}
+		
+		complete_effect = {
+			if = {
+				limit = { 
+					not = { has_country_flag = Ise_Surcouf_Easy_Mode } 
+				}
+				add_political_power = -20
+				navy_experience = -10 
+			}
+			set_country_flag = Lic_submarine_turrets
+		}
+		
+		days_re_enable = 0
+		# days_remove = 0
+		# fire_only_once = yes
+	}
+}

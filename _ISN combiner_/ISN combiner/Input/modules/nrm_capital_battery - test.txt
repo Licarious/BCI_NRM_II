@@ -1,0 +1,214 @@
+equipment_modules = {
+	######################################################################################################
+	# NRM Capital Main Battery
+	######################################################################################################
+
+	nrm_capital_battery_11_1_2x2 = {
+		category = nrm_capital_battery_11_2x2
+		gui_category = nrm_capital_battery_2x2
+		sfx = sfx_ui_sd_module_turret
+		
+		add_equipment_type = capital_ship
+		
+		manpower = 121
+		add_stats = {
+			build_cost_ic = 530
+			max_strength = 22
+			hg_attack = 7.7
+			supply_consumption = 0.019
+			surface_visibility = 0.53
+			
+		}
+		add_average_stats = {
+			hg_armor_piercing = 22
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.01331
+			reliability = -0.088
+			naval_speed = -0.01331
+			fuel_consumption = 0.06655
+			
+		}
+		build_cost_resources = {
+			
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 176.7
+		
+	}
+	nrm_capital_battery_11_1_2x3 = {
+		category = nrm_capital_battery_11_2x3
+		gui_category = nrm_capital_battery_2x3
+		sfx = sfx_ui_sd_module_turret
+		
+		add_equipment_type = capital_ship
+		
+		manpower = 182
+		add_stats = {
+			build_cost_ic = 800
+			max_strength = 33
+			hg_attack = 11.5
+			supply_consumption = 0.028
+			surface_visibility = 0.8
+			
+		}
+		add_average_stats = {
+			hg_armor_piercing = 22
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.019965
+			reliability = -0.132
+			naval_speed = -0.019965
+			fuel_consumption = 0.099825
+			
+		}
+		build_cost_resources = {
+			
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 266.7
+		
+	}
+	nrm_capital_battery_11_1_2x4 = {
+		category = nrm_capital_battery_11_2x4
+		gui_category = nrm_capital_battery_2x4
+		sfx = sfx_ui_sd_module_turret
+		
+		add_equipment_type = capital_ship
+		
+		manpower = 242
+		add_stats = {
+			build_cost_ic = 1060
+			max_strength = 44
+			hg_attack = 15.3
+			supply_consumption = 0.038
+			surface_visibility = 1.06
+			
+		}
+		add_average_stats = {
+			hg_armor_piercing = 22
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.02662
+			reliability = -0.176
+			naval_speed = -0.02662
+			fuel_consumption = 0.1331
+			
+		}
+		build_cost_resources = {
+			
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 353.3
+		
+	}
+	nrm_capital_battery_11_1_3x2 = {
+		category = nrm_capital_battery_11_3x2
+		gui_category = nrm_capital_battery_3x2
+		sfx = sfx_ui_sd_module_turret
+		
+		add_equipment_type = capital_ship
+		
+		manpower = 182
+		add_stats = {
+			build_cost_ic = 800
+			max_strength = 33
+			hg_attack = 11.5
+			supply_consumption = 0.028
+			surface_visibility = 0.8
+			
+		}
+		add_average_stats = {
+			hg_armor_piercing = 22
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.019965
+			reliability = -0.132
+			naval_speed = -0.019965
+			fuel_consumption = 0.099825
+			
+		}
+		build_cost_resources = {
+			
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 266.7
+		
+	}
+	nrm_capital_battery_11_1_4x2 = {
+		category = nrm_capital_battery_11_4x2
+		gui_category = nrm_capital_battery_4x2
+		sfx = sfx_ui_sd_module_turret
+		
+		add_equipment_type = capital_ship
+		
+		manpower = 242
+		add_stats = {
+			build_cost_ic = 1060
+			max_strength = 44
+			hg_attack = 15.3
+			supply_consumption = 0.038
+			surface_visibility = 1.06
+			
+		}
+		add_average_stats = {
+			hg_armor_piercing = 22
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.02662
+			reliability = -0.176
+			naval_speed = -0.02662
+			fuel_consumption = 0.1331
+			
+		}
+		build_cost_resources = {
+			
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 353.3
+		
+	}
+	nrm_capital_battery_18_3_3x2 = {
+		category = nrm_capital_battery_18_3x2
+		gui_category = nrm_capital_battery_3x2
+		sfx = sfx_ui_sd_module_turret
+		parent = nrm_capital_battery_18_2_3x2
+		
+		add_equipment_type = capital_ship
+		
+		manpower = 486
+		add_stats = {
+			build_cost_ic = 3500
+			max_strength = 146
+			hg_attack = 49.2
+			supply_consumption = 0.092
+			surface_visibility = 3.5
+			
+		}
+		add_average_stats = {
+			hg_armor_piercing = 51
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.08748
+			reliability = -0.216
+			naval_speed = -0.08748
+			fuel_consumption = 0.4374
+			
+		}
+		build_cost_resources = {
+			steel = 2
+			chromium = 1
+			
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 1166.7
+		
+	}
+	
+}

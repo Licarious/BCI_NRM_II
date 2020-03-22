@@ -1,0 +1,33 @@
+USA = {
+	submarine_cv = {
+		prefix = "USS"
+		generic = { "Submarine Carrier" }
+		unique = {
+			"Sterlet" "Queenfish" "Razorback" "Redfish" "Ronquil" "Scabbardfish" "Segundo" "Sea Cat" "Sea Devil" "Sea Dog" "Sea Fox" "Atule" "Spikefish" "Sea Owl" "Sea Poacher" "Sea Robin" "Sennet" "Piper" "Threadfin" 
+			"Spadefish" "Trepang" "Spot" "Springer" "Stickleback" "Tiru" 
+			"Tench" "Thornback" "Tigrone" "Tirante" "Trutta" "Toro" "Torsk" "Quillback" "Trumpetfish" "Tusk" "Turbot" "Ulua" "Unicorn" "Vendace" "Walrus" "Whitefish" "Whiting" "Wolffish" "Corsair" "Conger" "Cutlass" 
+			"Diablo" "Medregal" "Requin" "Irex" "Sea Leopard" "Odax" "Sirago" "Pomodon" "Remora" "Sarda" "Spinax" "Volador" "Comber" "Sea Panther" "Tiburon" "Kinn" "Springeren"
+		}
+	}
+	cruiser_cv = {
+		prefix = "USS"
+		generic = { "Aircraft Cruiser" }
+		unique = {
+			"Cambridge" "Bridgeport" "Kansas City" "Wenatchee" "Tulsa" "Taylor Anderson" "Harry Turtledove" "Larry Niven" "Norfolk" "Scranton" "Dallas" "James Corey" "Craig Alanson" "Vallejo" "Jack Campbell" "Gary"
+			"Newark" "Stephen Moss" "New Haven" "Steve White" "Richard Fox" "Buffalo" "Wilmington" "Elliott Kay" "Vallejo" "Andy Weir" "Roanoke" "John Scalzi" "Tallahassee" "Cheyenne" "Eric Flint" "Chattanooga" "Worcester" "Gary" "Providence" "Portsmouth" 
+		}
+	}
+	heavy_cv = {
+		prefix = "USS"
+		generic = { "Battle Carrier" }
+		unique = {
+			"Theodore Roosevelt" "George Washington" "Andrew Jackson" "Ulysses S. Grant" "Abraham Lincoln" "Zachary Taylor"
+			# Older/Other state names
+			"Minnesota" "North Dakota" "Oregon" "Connecticut" "Vermont" "New Hampshire" "Florida" "Utah" "Delaware" "Michigan" "Kansas" "Rhode Island" "Nebraska" "Virginia"
+			# Training ship, historically
+			"Wyoming"
+			#Additional US Territories/Districts during WW2 era
+			"District of Columbia" "Panama Canal" "Wake Island" "Midway Island" "Johnston Atoll" "Palmyra Island" "Baker Island" "Howland Island" "Jarvis Island"
+		}
+	}
+}

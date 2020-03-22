@@ -1,0 +1,32 @@
+FRA = {
+	submarine_cv = {
+		prefix = ""
+		generic = { "Porte-Avions Sous-Marin" }
+		unique = {
+			# Older and other models
+			"Sirène" "Naïade" "Galathée" "Ariane" "Ondine" "Eurydice" "Danaé" "Circé" "Calypso" "Thétis" "Doris" "Requin" "Souffleur" "Marsouin" "Dauphin" "Narval" "Morse" "Phoque" 
+			"Espadon" "Caïman" "Redoutable" "Vengeur" "Archimède" "Fresnel" "Henri Poincaré" "Monge" "Pascal" "Pasteur" "Poncelet" "Achille" "Ajax" "Actéon" "Achéron" "Argo" 
+			"Protée" "Pégase" "Persée" "Phénix" "Orion" "Ondine" "Diane" "Méduse" "Antiope" "Amphitrite" "Amazone" "Orphée" "Oréade" "La Sybille" "La Psyché" "Argonaute" "Aréthuse" 
+			"Atalante" "La Vestale" "La Sultane" "Surcouf" "Prométhée" "Nymphe" "Saphir" " Turquoise" "Diamant" "Nautilus" "Perlé" " Rubis"
+		}
+	}
+	cruiser_cv = {
+		prefix = ""
+		generic = { "Croisière de L'avion" }
+		unique = {
+			"Gloire" "Montcalm" "Desaix" "Dupleix" "Kléber" "Amiral Aube" "Condé" "Marseillaise" "Léon Gambetta" 
+			"Jules Ferry" "Victor Hugo" "Jules Michelet" "Ernest Renan" "Edgar Quinet" "Waldeck-Rousseau" 
+			"Colmar" "Mulhouse" "Strasbourg" "Metz" "Thionville"
+		}
+	}
+	heavy_cv = {
+        prefix = ""
+        generic = { "Bataille Porte-Avions" }
+        unique = {
+			"Jomini"
+			"Normandie" "Flandre" "Gascogne" "Béarn" "Gille" "Durand-Viel" "Hippogriff"
+			"Duquesne" "Lille" "Tourville"
+		}
+	}
+	
+}

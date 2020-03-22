@@ -1,0 +1,194 @@
+add_namespace = bci_tech
+
+#Japan loosing war
+country_event = {
+	id = bci_tech.301
+	title = bci_tech.301.t	
+	desc = bci_tech.301.desc
+	picture = GFX_
+	hidden = yes
+		
+	trigger = {
+		tag = JAP
+		or = {
+			has_war_with = USA
+			has_war_with = ENG
+		}
+		and = {
+			date > 1943.6.1
+			has_navy_size = {
+				size < 4
+				type = carrier
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_country_flag = Lic_surface_hybrids
+		create_equipment_variant = {
+			name = "Ise Class Retrofit"
+			type = nrm_ship_hull_capital_1
+			name_group = JAP_BB_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_capital_1
+				fixed_ship_engine_slot = nrm_capital_engine_S1_080
+				fixed_ship_armor_layout_slot = nrm_armour_layout_BB_1
+				fixed_ship_armor_slot = nrm_capital_armour_12_2
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_2
+				fixed_ship_range_slot = nrm_range_capital_2
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_4
+				fixed_ship_fire_control_system_aa_slot = empty
+				fixed_ship_battery_slot = nrm_capital_battery_14_2_2x2
+				fixed_ship_battery_rear_slot = nrm_capital_battery_14_2_2x2_CHL_020
+				fixed_ship_secondary_slot = nrm_capital_secondary_SB_5h_2_x16
+				fixed_ship_tertiary_slot = nrm_capital_tertiary_HA_5_2_x08
+				custom_slot_1 = empty
+				custom_slot_2 = nrm_support_capital_FP_1
+				custom_slot_3 = empty
+				custom_slot_4 = nrm_support_capital_AA_1
+				custom_slot_5 = empty
+				custom_slot_6 = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Kongo Class Retrofit"
+			type = nrm_ship_hull_capital_1
+			name_group = JAP_BB_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_capital_1
+				fixed_ship_engine_slot = nrm_capital_engine_S1_130
+				fixed_ship_armor_layout_slot = nrm_armour_layout_BC_1
+				fixed_ship_armor_slot = nrm_capital_armour_08_3
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_2
+				fixed_ship_range_slot = nrm_range_capital_3
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_4
+				fixed_ship_fire_control_system_aa_slot = empty
+				fixed_ship_battery_slot = nrm_capital_battery_14_2_2x2
+				fixed_ship_battery_rear_slot = nrm_capital_flightdeck_CHL_020
+				fixed_ship_secondary_slot = nrm_capital_secondary_SB_6_2_x12
+				fixed_ship_tertiary_slot = nrm_capital_tertiary_HA_5_2_x08
+				custom_slot_1 = empty
+				custom_slot_2 = nrm_support_capital_FP_2
+				custom_slot_3 = nrm_support_capital_AA_1
+				custom_slot_4 = nrm_support_capital_AA_2
+				custom_slot_5 = empty
+				custom_slot_6 = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Fuso Class Retrofit"
+			type = nrm_ship_hull_capital_1
+			name_group = JAP_BB_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_capital_1
+				fixed_ship_engine_slot = nrm_capital_engine_S1_075
+				fixed_ship_armor_layout_slot = nrm_armour_layout_BB_1
+				fixed_ship_armor_slot = nrm_capital_armour_12_2
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_2
+				fixed_ship_range_slot = nrm_range_capital_2
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_4
+				fixed_ship_fire_control_system_aa_slot = empty
+				fixed_ship_battery_slot = nrm_capital_battery_14_2_2x2
+				fixed_ship_battery_rear_slot = nrm_capital_battery_14_2_2x2_CHL_020
+				fixed_ship_secondary_slot = nrm_capital_secondary_SB_6_2_x16
+				fixed_ship_tertiary_slot = nrm_capital_tertiary_HA_5_2_x08
+				custom_slot_1 = empty
+				custom_slot_2 = nrm_support_capital_FP_1
+				custom_slot_3 = empty
+				custom_slot_4 = nrm_support_capital_AA_1
+				custom_slot_5 = empty
+				custom_slot_6 = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Nagato Class Retrofit"
+			type = nrm_ship_hull_capital_2
+			name_group = JAP_BB_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_capital_2
+				fixed_ship_engine_slot = nrm_capital_engine_S1_080
+				fixed_ship_armor_layout_slot = nrm_armour_layout_BB_2
+				fixed_ship_armor_slot = nrm_capital_armour_12_3
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_2
+				fixed_ship_range_slot = nrm_range_capital_2
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_4
+				fixed_ship_fire_control_system_aa_slot = empty
+				fixed_ship_battery_slot = nrm_capital_battery_16_2_2x2
+				fixed_ship_battery_rear_slot = nrm_capital_flightdeck_CHL_020
+				fixed_ship_secondary_slot = nrm_capital_secondary_SB_5h_2_x16
+				fixed_ship_tertiary_slot = nrm_capital_tertiary_HA_5_2_x08
+				custom_slot_1 = empty
+				custom_slot_2 = nrm_support_capital_FP_2
+				custom_slot_3 = nrm_support_capital_AA_1
+				custom_slot_4 = nrm_support_capital_AA_1
+				custom_slot_5 = empty
+				custom_slot_6 = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Tone Class Retrofit"
+			type = nrm_ship_hull_cruiser_3
+			name_group = JAP_CA_HISTORICAL
+			parent_version = 0
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_cruiser_3
+				fixed_ship_engine_slot = nrm_cruiser_engine_S2_150
+				fixed_ship_armor_layout_slot = nrm_armour_layout_3
+				fixed_ship_armor_slot = nrm_cruiser_armour_05_2
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_2
+				fixed_ship_range_slot = nrm_range_cruiser_3
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_4
+				fixed_ship_fire_control_system_aa_slot = empty
+				fixed_ship_battery_slot = nrm_cruiser_battery_8_2_x06
+				fixed_ship_battery_rear_slot = nrm_cruiser_flightdeck_CHL_015
+				fixed_ship_tertiary_slot = nrm_cruiser_tertiary_HA_5_2_x08
+				custom_slot_1 = nrm_support_cruiser_FP_2
+				custom_slot_2 = nrm_support_cruiser_FP_2
+				custom_slot_3 = nrm_support_cruiser_TRP_24_2_x06
+				custom_slot_4 = nrm_support_cruiser_TRP_24_2_x06
+				custom_slot_5 = nrm_support_cruiser_AA_2
+				custom_slot_6 = empty
+			}
+		}
+		set_technology = { 
+			improved_heavy_battery_converted_small = 1
+			improved_heavy_battery_3_converted_small = 1 
+			improved_medium_battery_2_converted_medium = 1
+
+		}
+	}
+	
+}
+#France, Screw Naval Treaties
+country_event = {
+	id = bci_tech.303
+	title = bci_tech.303.t	
+	desc = bci_tech.303.desc
+	picture = GFX_
+	hidden = yes
+	
+	trigger = {
+		or = {
+			tag = FRA
+			tag = VIC
+		}
+		not = { has_idea = MTG_naval_treaty_adherent }
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	immediate = {
+		set_country_flag = Lic_submarine_turrets
+	}
+}

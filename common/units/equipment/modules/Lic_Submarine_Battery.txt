@@ -1,0 +1,932 @@
+equipment_modules = {
+
+	nrm_submarine_battery_8_1_x02 = {
+		category = nrm_submarine_battery_medium
+
+		manpower = 21
+		add_stats = {
+			build_cost_ic = 195.0
+			max_strength = 6.0
+			hg_attack = 3.3
+			supply_consumption = 0.006
+			surface_visibility = 0.99
+			sub_visibility = 1.1211851851851853
+		}
+		add_average_stats = {
+			hg_armor_piercing = 14.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0512
+			reliability = -0.032
+			naval_speed = -0.1024
+			fuel_consumption = 0.07680000000000001
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 43.3
+	}
+	nrm_submarine_battery_8_2_x02 = {
+		category = nrm_submarine_battery_medium
+		parent = nrm_submarine_battery_8_1_x02
+
+		manpower = 21
+		add_stats = {
+			build_cost_ic = 195.0
+			max_strength = 6.0
+			hg_attack = 3.7
+			supply_consumption = 0.006
+			surface_visibility = 0.99
+			sub_visibility = 1.1211851851851853
+		}
+		add_average_stats = {
+			hg_armor_piercing = 15.5
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0512
+			reliability = -0.032
+			naval_speed = -0.1024
+			fuel_consumption = 0.07680000000000001
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 43.3
+	}
+	nrm_submarine_battery_8_3_x02 = {
+		category = nrm_submarine_battery_medium
+		parent = nrm_submarine_battery_8_2_x02
+
+		manpower = 21
+		add_stats = {
+			build_cost_ic = 195.0
+			max_strength = 6.0
+			hg_attack = 4.2
+			supply_consumption = 0.006
+			surface_visibility = 0.99
+			sub_visibility = 1.1211851851851853
+		}
+		add_average_stats = {
+			hg_armor_piercing = 17.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0512
+			reliability = -0.032
+			naval_speed = -0.1024
+			fuel_consumption = 0.07680000000000001
+		}
+		build_cost_resources = {
+			steel = 1.0
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 43.3
+	}
+	nrm_submarine_battery_5_1_x02 = {
+		category = nrm_submarine_battery_light
+
+		manpower = 12
+		add_stats = {
+			build_cost_ic = 48.75
+			max_strength = 1.5
+			lg_attack = 1.9
+			supply_consumption = 0.003
+			surface_visibility = 0.24
+			sub_visibility = 0.27372685185185186
+		}
+		add_average_stats = {
+			lg_armor_piercing = 6.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0125
+			reliability = -0.02
+			naval_speed = -0.0225
+			fuel_consumption = 0.018750000000000003
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 10.85
+	}
+	nrm_submarine_battery_5_1_x03 = {
+		category = nrm_submarine_battery_light
+
+		manpower = 18
+		add_stats = {
+			build_cost_ic = 71.25
+			max_strength = 2.5
+			lg_attack = 2.8
+			supply_consumption = 0.004
+			surface_visibility = 0.36
+			sub_visibility = 0.27372685185185186
+		}
+		add_average_stats = {
+			lg_armor_piercing = 6.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.01875
+			reliability = -0.03
+			naval_speed = -0.03375
+			fuel_consumption = 0.028124999999999997
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 15.85
+	}
+	nrm_submarine_battery_5_2_x02 = {
+		category = nrm_submarine_battery_light
+		parent = nrm_submarine_battery_5_1_x02
+
+		manpower = 12
+		add_stats = {
+			build_cost_ic = 48.75
+			max_strength = 1.5
+			lg_attack = 2.1
+			supply_consumption = 0.003
+			surface_visibility = 0.24
+			sub_visibility = 0.27372685185185186
+		}
+		add_average_stats = {
+			lg_armor_piercing = 7.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0125
+			reliability = -0.02
+			naval_speed = -0.0225
+			fuel_consumption = 0.018750000000000003
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 10.85
+	}
+	nrm_submarine_battery_5_2_x03 = {
+		category = nrm_submarine_battery_light
+		parent = nrm_submarine_battery_5_1_x03
+
+		manpower = 18
+		add_stats = {
+			build_cost_ic = 71.25
+			max_strength = 2.5
+			lg_attack = 3.15
+			supply_consumption = 0.004
+			surface_visibility = 0.36
+			sub_visibility = 0.27372685185185186
+		}
+		add_average_stats = {
+			lg_armor_piercing = 7.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.01875
+			reliability = -0.03
+			naval_speed = -0.03375
+			fuel_consumption = 0.028124999999999997
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 15.85
+	}
+	nrm_submarine_battery_5_3_x02 = {
+		category = nrm_submarine_battery_light
+		parent = nrm_submarine_battery_5_2_x02
+
+		manpower = 12
+		add_stats = {
+			build_cost_ic = 48.75
+			max_strength = 1.5
+			lg_attack = 2.35
+			supply_consumption = 0.003
+			surface_visibility = 0.24
+			sub_visibility = 0.27372685185185186
+		}
+		add_average_stats = {
+			lg_armor_piercing = 8.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0125
+			reliability = -0.02
+			naval_speed = -0.0225
+			fuel_consumption = 0.018750000000000003
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 10.85
+	}
+	nrm_submarine_battery_5_3_x03 = {
+		category = nrm_submarine_battery_light
+		parent = nrm_submarine_battery_5_2_x03
+
+		manpower = 18
+		add_stats = {
+			build_cost_ic = 71.25
+			max_strength = 2.5
+			lg_attack = 3.5
+			supply_consumption = 0.004
+			surface_visibility = 0.36
+			sub_visibility = 0.27372685185185186
+		}
+		add_average_stats = {
+			lg_armor_piercing = 8.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.01875
+			reliability = -0.03
+			naval_speed = -0.03375
+			fuel_consumption = 0.028124999999999997
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 15.85
+	}
+	nrm_submarine_battery_5.5_1_x02 = {
+		category = nrm_submarine_battery_light
+
+		manpower = 15
+		add_stats = {
+			build_cost_ic = 63.75
+			max_strength = 2.0
+			lg_attack = 2.1
+			supply_consumption = 0.0035
+			surface_visibility = 0.315
+			sub_visibility = 0.36433043981481483
+		}
+		add_average_stats = {
+			lg_armor_piercing = 8.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0166375
+			reliability = -0.022
+			naval_speed = -0.029947500000000002
+			fuel_consumption = 0.02495625
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 14.15
+	}
+	nrm_submarine_battery_5.5_1_x03 = {
+		category = nrm_submarine_battery_light
+
+		manpower = 22
+		add_stats = {
+			build_cost_ic = 93.75
+			max_strength = 3.0
+			lg_attack = 3.1
+			supply_consumption = 0.005
+			surface_visibility = 0.46499999999999997
+			sub_visibility = 0.36433043981481483
+		}
+		add_average_stats = {
+			lg_armor_piercing = 8.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.02495625
+			reliability = -0.033
+			naval_speed = -0.04492125
+			fuel_consumption = 0.037434375
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 20.85
+	}
+	nrm_submarine_battery_5.5_2_x02 = {
+		category = nrm_submarine_battery_light
+		parent = nrm_submarine_battery_5.5_1_x02
+
+		manpower = 15
+		add_stats = {
+			build_cost_ic = 63.75
+			max_strength = 2.0
+			lg_attack = 2.35
+			supply_consumption = 0.0035
+			surface_visibility = 0.315
+			sub_visibility = 0.36433043981481483
+		}
+		add_average_stats = {
+			lg_armor_piercing = 9.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0166375
+			reliability = -0.022
+			naval_speed = -0.029947500000000002
+			fuel_consumption = 0.02495625
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 14.15
+	}
+	nrm_submarine_battery_5.5_2_x03 = {
+		category = nrm_submarine_battery_light
+		parent = nrm_submarine_battery_5.5_1_x03
+
+		manpower = 22
+		add_stats = {
+			build_cost_ic = 93.75
+			max_strength = 3.0
+			lg_attack = 3.5
+			supply_consumption = 0.005
+			surface_visibility = 0.46499999999999997
+			sub_visibility = 0.36433043981481483
+		}
+		add_average_stats = {
+			lg_armor_piercing = 9.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.02495625
+			reliability = -0.033
+			naval_speed = -0.04492125
+			fuel_consumption = 0.037434375
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 20.85
+	}
+	nrm_submarine_battery_5.5_3_x02 = {
+		category = nrm_submarine_battery_light
+		parent = nrm_submarine_battery_5.5_2_x02
+
+		manpower = 15
+		add_stats = {
+			build_cost_ic = 63.75
+			max_strength = 2.0
+			lg_attack = 2.6
+			supply_consumption = 0.0035
+			surface_visibility = 0.315
+			sub_visibility = 0.36433043981481483
+		}
+		add_average_stats = {
+			lg_armor_piercing = 10.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0166375
+			reliability = -0.022
+			naval_speed = -0.029947500000000002
+			fuel_consumption = 0.02495625
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 14.15
+	}
+	nrm_submarine_battery_5.5_3_x03 = {
+		category = nrm_submarine_battery_light
+		parent = nrm_submarine_battery_5.5_2_x03
+
+		manpower = 22
+		add_stats = {
+			build_cost_ic = 93.75
+			max_strength = 3.0
+			lg_attack = 3.9
+			supply_consumption = 0.005
+			surface_visibility = 0.46499999999999997
+			sub_visibility = 0.36433043981481483
+		}
+		add_average_stats = {
+			lg_armor_piercing = 10.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.02495625
+			reliability = -0.033
+			naval_speed = -0.04492125
+			fuel_consumption = 0.037434375
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 20.85
+	}
+	nrm_submarine_battery_6_1_x02 = {
+		category = nrm_submarine_battery_medium
+
+		manpower = 18
+		add_stats = {
+			build_cost_ic = 82.5
+			max_strength = 2.5
+			lg_attack = 2.15
+			supply_consumption = 0.004
+			surface_visibility = 0.42000000000000004
+			sub_visibility = 0.4730000000000001
+		}
+		add_average_stats = {
+			lg_armor_piercing = 10.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0216
+			reliability = -0.024
+			naval_speed = -0.0432
+			fuel_consumption = 0.0324
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 18.35
+	}
+	nrm_submarine_battery_6_2_x02 = {
+		category = nrm_submarine_battery_medium
+		parent = nrm_submarine_battery_6_1_x02
+
+		manpower = 18
+		add_stats = {
+			build_cost_ic = 82.5
+			max_strength = 2.5
+			lg_attack = 2.45
+			supply_consumption = 0.004
+			surface_visibility = 0.42000000000000004
+			sub_visibility = 0.4730000000000001
+		}
+		add_average_stats = {
+			lg_armor_piercing = 11.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0216
+			reliability = -0.024
+			naval_speed = -0.0432
+			fuel_consumption = 0.0324
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 18.35
+	}
+	nrm_submarine_battery_6_3_x02 = {
+		category = nrm_submarine_battery_medium
+		parent = nrm_submarine_battery_6_2_x02
+
+		manpower = 18
+		add_stats = {
+			build_cost_ic = 82.5
+			max_strength = 2.5
+			lg_attack = 2.7
+			supply_consumption = 0.004
+			surface_visibility = 0.42000000000000004
+			sub_visibility = 0.4730000000000001
+		}
+		add_average_stats = {
+			lg_armor_piercing = 12.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0216
+			reliability = -0.024
+			naval_speed = -0.0432
+			fuel_consumption = 0.0324
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 18.35
+	}
+	nrm_submarine_battery_6_4_x02 = {
+		category = nrm_submarine_battery_medium
+		parent = nrm_submarine_battery_6_3_x02
+
+		manpower = 18
+		add_stats = {
+			build_cost_ic = 108.75
+			max_strength = 2.5
+			lg_attack = 3.4
+			supply_consumption = 0.004
+			surface_visibility = 0.54
+			sub_visibility = 0.4730000000000001
+		}
+		add_average_stats = {
+			lg_armor_piercing = 12.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0324
+			reliability = -0.024
+			naval_speed = -0.0432
+			fuel_consumption = 0.0324
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 24.15
+	}
+	nrm_submarine_battery_8_4_x02 = {
+		category = nrm_submarine_battery_medium
+		parent = nrm_submarine_battery_8_3_x02
+
+		manpower = 21
+		add_stats = {
+			build_cost_ic = 255.0
+			max_strength = 6.5
+			hg_attack = 6.15
+			supply_consumption = 0.0055
+			surface_visibility = 1.02
+			sub_visibility = 1.1211851851851853
+		}
+		add_average_stats = {
+			hg_armor_piercing = 17.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.07680000000000001
+			reliability = -0.032
+			naval_speed = -0.1024
+			fuel_consumption = 0.07680000000000001
+		}
+		build_cost_resources = {
+			steel = 1.0
+			chromium = 1.0
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 56.65
+	}
+	nrm_submarine_battery_DP_5_2_x03 = {
+		category = nrm_submarine_battery_light
+		parent = nrm_submarine_battery_DP_5_1_x03
+
+		manpower = 18
+		add_stats = {
+			build_cost_ic = 93.75
+			max_strength = 2.5
+			lg_attack = 3.3
+			anti_air_attack = 2.5
+			supply_consumption = 0.004
+			surface_visibility = 0.46499999999999997
+			sub_visibility = 0.29048112499999995
+		}
+		add_average_stats = {
+			lg_armor_piercing = 7.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.01875
+			reliability = -0.03
+			naval_speed = -0.03375
+			fuel_consumption = 0.028124999999999997
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 20.85
+	}
+	nrm_submarine_battery_DP_5_3_x03 = {
+		category = nrm_submarine_battery_light
+		parent = nrm_submarine_battery_DP_5_2_x03
+
+		manpower = 18
+		add_stats = {
+			build_cost_ic = 93.75
+			max_strength = 2.5
+			lg_attack = 3.65
+			anti_air_attack = 2.7
+			supply_consumption = 0.004
+			surface_visibility = 0.46499999999999997
+			sub_visibility = 0.29048112499999995
+		}
+		add_average_stats = {
+			lg_armor_piercing = 8.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.01875
+			reliability = -0.03
+			naval_speed = -0.03375
+			fuel_consumption = 0.028124999999999997
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 20.85
+	}
+	nrm_submarine_battery_DP_5.5_2_x03 = {
+		category = nrm_submarine_battery_light
+		parent = nrm_submarine_battery_DP_5.5_1_x03
+
+		manpower = 22
+		add_stats = {
+			build_cost_ic = 123.75
+			max_strength = 3.0
+			lg_attack = 3.5
+			anti_air_attack = 1.8
+			supply_consumption = 0.005
+			surface_visibility = 0.615
+			sub_visibility = 0.3845665185185185
+		}
+		add_average_stats = {
+			lg_armor_piercing = 9.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.02495625
+			reliability = -0.033
+			naval_speed = -0.04492125
+			fuel_consumption = 0.037434375
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 27.5
+	}
+	nrm_submarine_battery_DP_5.5_3_x03 = {
+		category = nrm_submarine_battery_light
+		parent = nrm_submarine_battery_DP_5.5_2_x03
+
+		manpower = 22
+		add_stats = {
+			build_cost_ic = 123.75
+			max_strength = 3.0
+			lg_attack = 3.9
+			anti_air_attack = 2.4
+			supply_consumption = 0.005
+			surface_visibility = 0.615
+			sub_visibility = 0.3845665185185185
+		}
+		add_average_stats = {
+			lg_armor_piercing = 10.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.02495625
+			reliability = -0.033
+			naval_speed = -0.04492125
+			fuel_consumption = 0.037434375
+		}
+		critical_parts = { damaged_light_guns }
+		dismantle_cost_ic = 27.5
+	}
+	nrm_submarine_battery_13_1_x01 = {
+		category = nrm_submarine_battery_heavy
+
+		manpower = 21
+		add_stats = {
+			build_cost_ic = 330.0
+			max_strength = 9.125
+			hg_attack = 2.75
+			supply_consumption = 0.007
+			surface_visibility = 0.66
+			sub_visibility = 2.4055115740740747
+		}
+		add_average_stats = {
+			hg_armor_piercing = 26.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.054925
+			reliability = -0.026
+			naval_speed = -0.06591
+			fuel_consumption = 0.04119375
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 73.3375
+	}
+	nrm_submarine_battery_13_2_x01 = {
+		category = nrm_submarine_battery_heavy
+		parent = nrm_submarine_battery_13_1_x01
+
+		manpower = 21
+		add_stats = {
+			build_cost_ic = 330.0
+			max_strength = 9.125
+			hg_attack = 3.0875
+			supply_consumption = 0.007
+			surface_visibility = 0.66
+			sub_visibility = 2.4055115740740747
+		}
+		add_average_stats = {
+			hg_armor_piercing = 28.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.054925
+			reliability = -0.026
+			naval_speed = -0.06591
+			fuel_consumption = 0.04119375
+		}
+		build_cost_resources = {
+			steel = 1.0
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 73.3375
+	}
+	nrm_submarine_battery_13_3_x01 = {
+		category = nrm_submarine_battery_heavy
+		parent = nrm_submarine_battery_13_2_x01
+
+		manpower = 21
+		add_stats = {
+			build_cost_ic = 330.0
+			max_strength = 9.125
+			hg_attack = 3.4375
+			supply_consumption = 0.007
+			surface_visibility = 0.66
+			sub_visibility = 2.4055115740740747
+		}
+		add_average_stats = {
+			hg_armor_piercing = 30.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.054925
+			reliability = -0.026
+			naval_speed = -0.06591
+			fuel_consumption = 0.04119375
+		}
+		build_cost_resources = {
+			steel = 1.0
+			chromium = 1.0
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 73.3375
+	}
+	nrm_submarine_battery_14_1_x01 = {
+		category = nrm_submarine_battery_heavy
+
+		manpower = 24
+		add_stats = {
+			build_cost_ic = 412.5
+			max_strength = 11.375
+			hg_attack = 3.425
+			supply_consumption = 0.008375
+			surface_visibility = 0.8250000000000001
+			sub_visibility = 3.004425925925926
+		}
+		add_average_stats = {
+			hg_armor_piercing = 29.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0686
+			reliability = -0.028
+			naval_speed = -0.08232
+			fuel_consumption = 0.051449999999999996
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 91.6625
+	}
+	nrm_submarine_battery_14_2_x01 = {
+		category = nrm_submarine_battery_heavy
+		parent = nrm_submarine_battery_14_1_x01
+
+		manpower = 24
+		add_stats = {
+			build_cost_ic = 412.5
+			max_strength = 11.375
+			hg_attack = 3.8625
+			supply_consumption = 0.008375
+			surface_visibility = 0.8250000000000001
+			sub_visibility = 3.004425925925926
+		}
+		add_average_stats = {
+			hg_armor_piercing = 31.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0686
+			reliability = -0.028
+			naval_speed = -0.08232
+			fuel_consumption = 0.051449999999999996
+		}
+		build_cost_resources = {
+			steel = 1.0
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 91.6625
+	}
+	nrm_submarine_battery_14_3_x01 = {
+		category = nrm_submarine_battery_heavy
+		parent = nrm_submarine_battery_14_2_x01
+
+		manpower = 24
+		add_stats = {
+			build_cost_ic = 412.5
+			max_strength = 11.375
+			hg_attack = 4.2875
+			supply_consumption = 0.008375
+			surface_visibility = 0.8250000000000001
+			sub_visibility = 3.004425925925926
+		}
+		add_average_stats = {
+			hg_armor_piercing = 33.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0686
+			reliability = -0.028
+			naval_speed = -0.08232
+			fuel_consumption = 0.051449999999999996
+		}
+		build_cost_resources = {
+			steel = 1.0
+			chromium = 1.0
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 91.6625
+	}
+	nrm_submarine_battery_15_1_x01 = {
+		category = nrm_submarine_battery_heavy
+
+		manpower = 28
+		add_stats = {
+			build_cost_ic = 506.25
+			max_strength = 14.125
+			hg_attack = 4.225
+			supply_consumption = 0.009875
+			surface_visibility = 1.0125000000000002
+			sub_visibility = 3.6953125000000004
+		}
+		add_average_stats = {
+			hg_armor_piercing = 33.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.084375
+			reliability = -0.03
+			naval_speed = -0.10125
+			fuel_consumption = 0.06328125000000001
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 112.5
+	}
+	nrm_submarine_battery_15_2_x01 = {
+		category = nrm_submarine_battery_heavy
+		parent = nrm_submarine_battery_15_1_x01
+
+		manpower = 28
+		add_stats = {
+			build_cost_ic = 506.25
+			max_strength = 14.125
+			hg_attack = 4.75
+			supply_consumption = 0.009875
+			surface_visibility = 1.0125000000000002
+			sub_visibility = 3.6953125000000004
+		}
+		add_average_stats = {
+			hg_armor_piercing = 35.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.084375
+			reliability = -0.03
+			naval_speed = -0.10125
+			fuel_consumption = 0.06328125000000001
+		}
+		build_cost_resources = {
+			steel = 1.0
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 112.5
+	}
+	nrm_submarine_battery_15_3_x01 = {
+		category = nrm_submarine_battery_heavy
+		parent = nrm_submarine_battery_15_2_x01
+
+		manpower = 28
+		add_stats = {
+			build_cost_ic = 506.25
+			max_strength = 14.125
+			hg_attack = 5.275
+			supply_consumption = 0.009875
+			surface_visibility = 1.0125000000000002
+			sub_visibility = 3.6953125000000004
+		}
+		add_average_stats = {
+			hg_armor_piercing = 37.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.084375
+			reliability = -0.03
+			naval_speed = -0.10125
+			fuel_consumption = 0.06328125000000001
+		}
+		build_cost_resources = {
+			steel = 1.0
+			chromium = 1.0
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 112.5
+	}
+	nrm_submarine_battery_16_1_x01 = {
+		category = nrm_submarine_battery_heavy
+
+		manpower = 32
+		add_stats = {
+			build_cost_ic = 615.0
+			max_strength = 17.125
+			hg_attack = 4.8625
+			supply_consumption = 0.0115
+			surface_visibility = 1.23
+			sub_visibility = 4.484740740740741
+		}
+		add_average_stats = {
+			hg_armor_piercing = 37.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.1024
+			reliability = -0.032
+			naval_speed = -0.12288000000000002
+			fuel_consumption = 0.07680000000000001
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 136.662
+	}
+	nrm_submarine_battery_16_2_x01 = {
+		category = nrm_submarine_battery_heavy
+		parent = nrm_submarine_battery_16_1_x01
+
+		manpower = 32
+		add_stats = {
+			build_cost_ic = 615.0
+			max_strength = 17.125
+			hg_attack = 5.475
+			supply_consumption = 0.0115
+			surface_visibility = 1.23
+			sub_visibility = 4.484740740740741
+		}
+		add_average_stats = {
+			hg_armor_piercing = 40.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.1024
+			reliability = -0.032
+			naval_speed = -0.12288000000000002
+			fuel_consumption = 0.07680000000000001
+		}
+		build_cost_resources = {
+			steel = 1.0
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 136.662
+	}
+	nrm_submarine_battery_16_3_x01 = {
+		category = nrm_submarine_battery_heavy
+		parent = nrm_submarine_battery_16_2_x01
+
+		manpower = 32
+		add_stats = {
+			build_cost_ic = 615.0
+			max_strength = 17.125
+			hg_attack = 6.075
+			supply_consumption = 0.0115
+			surface_visibility = 1.23
+			sub_visibility = 4.484740740740741
+		}
+		add_average_stats = {
+			hg_armor_piercing = 43.0
+		}
+		multiply_stats = {
+			build_cost_ic = 0.1024
+			reliability = -0.032
+			naval_speed = -0.12288000000000002
+			fuel_consumption = 0.07680000000000001
+		}
+		build_cost_resources = {
+			steel = 1.0
+			chromium = 1.0
+		}
+		critical_parts = { damaged_heavy_guns }
+		dismantle_cost_ic = 136.662
+	}
+}

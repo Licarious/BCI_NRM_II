@@ -1,0 +1,111 @@
+equipment_modules = {
+
+	nrm_submarine_cvl_1 = {
+		category = nrm_submarine_cvl	
+		gui_category = nrm_submarine_cv
+		
+		manpower = 20
+		add_stats = {
+			build_cost_ic = 150
+			max_strength = 5
+			supply_consumption = 0.007
+			carrier_size = 1.0
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.00225
+			reliability = -0.015
+			naval_speed = -0.040824829
+			sub_visibility = 0.1
+			
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		dismantle_cost_ic = 100
+		
+	}
+	nrm_submarine_cvl_2 = {
+		category = nrm_submarine_cvl
+		gui_category = nrm_submarine_cv
+		parent = nrm_submarine_cvl_1
+		
+		manpower = 30
+		add_stats = {
+			build_cost_ic = 190
+			max_strength = 5
+			supply_consumption = 0.00875
+			carrier_size = 2.0
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.0028125
+			reliability = -0.01875
+			naval_speed = -0.051031036308
+			sub_visibility = 0.1
+			
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		dismantle_cost_ic = 100
+		
+	}
+	nrm_submarine_cvl_3 = {
+		category = nrm_submarine_cv
+		parent = nrm_submarine_cvl_2
+		
+		manpower = 40
+		add_stats = {
+			build_cost_ic = 240
+			max_strength = 5
+			supply_consumption = 0.0109375
+			carrier_size = 3.0
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.003515625
+			reliability = -0.0234375
+			naval_speed = -0.063788795385
+			sub_visibility = 0.1
+			
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		dismantle_cost_ic = 100
+		
+	}
+	nrm_submarine_cvl_4 = {
+		category = nrm_submarine_cv
+		parent = nrm_submarine_cvl_3
+		
+		manpower = 50
+		add_stats = {
+			build_cost_ic = 290
+			max_strength = 5
+			supply_consumption = 0.013125
+			carrier_size = 4.0
+		}
+		add_average_stats = {
+			
+		}
+		multiply_stats = {
+			build_cost_ic = 0.00421875
+			reliability = -0.028125
+			naval_speed = -0.076546554462
+			sub_visibility = 0.1
+			
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		dismantle_cost_ic = 100
+		
+	}

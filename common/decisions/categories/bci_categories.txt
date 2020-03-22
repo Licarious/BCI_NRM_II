@@ -1,0 +1,15 @@
+Battle_Carrier_Ise_NRM = {
+	allowed = {
+		and = {
+			always = yes
+		}
+	}
+	visible = {
+		or = {
+			not = { has_country_flag = Lic_sub_surface_hybrids }
+			not = { has_country_flag = Lic_surface_hybrids }
+			not = { has_country_flag = Lic_submarine_turrets }
+			#always = yes
+		}
+	}
+}

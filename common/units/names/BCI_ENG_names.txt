@@ -1,0 +1,33 @@
+ENG = {
+	submarine_cv = {
+		prefix = "HMS"
+		generic = { "Submarine Carrier" }
+		unique = {
+			###planned but cancelled, etc.
+			"Vantage"  "Vehement" "Venom" "Verve" "Unbridled" "Upward" "Sea Robin" "Sprightly" "Surface" "Surge" "Poseidon" "Veto" "Virile" "Visitan" "Upas" "Ulex" "Utopia" 
+			"Andromache" "Answer" "Antagonist" "Antaeus" "Anzac" "Aphrodite" "Approach" "Arcadian" "Ardent" "Argosy" "Atlantis" "Admirable" "Asperity" "Austere" "Adversary" "Aztec" "Abelard" 
+			"Acasta" "Agate" "Aggressor" "Agile" "Aladdin" "Alcestis" "Asgard" "Assurance" "Astarte" 
+		}
+	}
+	cruiser_cv = {
+		prefix = "HMS"
+		generic = { "Aircraft Cruiser" }
+		unique = {
+			"Edgar" "Hawke" "Endymion" "Grafton" "St. George" "Northumberland" "Crescent" "Powerful" "Terrible" "Dennis Taylor" "Christopher Nuttall"
+			"Diadem" "Niobe" "Amphitrite" "Ariadne" "Spartiate" "Hogue" "Bacchante" "Euryalus" "Drake" "Good Hope" "Essex" "Hampshire" "Carnarvon" "Antrim" "Roxburgh" "Argyll" "Duke of Edinburgh" "Cochrane" "Black Prince"
+			"Constance" "Centaur" "Concord" "Phaeton" "Bristol" "Weymouth" "Dartmouth" "Falmouth" "Yarmouth" "Chatham" "Caroline" "Caledon" "Calypso" "Caradoc" "Cardiff" "Ceres" 
+			"Coventry" "Curacoa" "Curlew" "Cairo" "Calcutta" "Capetown" "Carlisle" "Colombo" "Danae" "Dauntless" "Dragon" "Delhi" "Dunedin" "Durban" "Despatch" "Diomede" "Emerald" 
+			"Enterprise" "Achilles" "Ajax" "Leander" "Neptune" "Orion" 
+		}
+	}	
+	heavy_cv = {
+        prefix = "HMS"
+        generic = { "Battle Carrier" }
+        unique = {
+			"Thunder Child"
+			"Benbow" "Emperor of India"
+			"Queen Elizabeth" "Warspite" "Valiant" "Barham" "Malaya" "Revenge" "Resolution" "Royal Oak" "Royal Sovereign" "Ramillies" "Nelson" "Dreadnought"
+			"Renown" "Repulse" "Courageous" "Glorious" "Furious" "Hood" "Rodney"
+		}
+	}	
+}

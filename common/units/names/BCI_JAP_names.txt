@@ -1,0 +1,48 @@
+JAP = {
+	submarine_cv = {
+		prefix = ""
+		generic = { "Sensuikan Kyaria" }
+		unique = {
+			# Cancelled/Not completed
+			"I-57" "I-59" "I-400" "I-401" "I-402" "I-403" "I-404" "I-405" "I-406" "I-407" "I-408" "I-409" "I-410" "I-411" "I-412" "I-413" "I-414" "I-415" "I-416" "I-417" "I-204" "I-205" "I-206" "I-207" "I-208"
+			# Fictional/Repeated
+			"I-209" "I-210" "I-211" "I-212" "I-213" "I-214" "I-215" "I-216" "I-217" "I-60" "I-61" "I-62" "I-63" "I-64" "I-65" "I-66" "I-67" "I-68" "I-69" "I-86" "I-87" "I-88" "I-89" 
+			"I-90" "I-91" "I-92" "I-93" "I-94" "I-95" "I-96" "I-97" "I-98" "I-99" 
+		}
+	}
+	cruiser_cv = {
+		prefix = ""
+		generic = { "Kokuki-yo Kuruza" }
+		unique = {
+			# Cancelled/not completed
+			"Ibuki" "Haogi" 
+			"Ioshima" "Yasoshima" "Mogami" "Mikuma" "Suzuya" "Kumano" "Yodo" "Hirado" "Yahagi" 
+			"Tenryu" "Tatsuta" "Kuma" "Tama" "Kitikami" "Oi" "Kiso" "Nagara" "Isuzu" "Natori" "Yura" "Kinu" "Abukuma" "Yubari" "Sendai" "Jintsu" "Naka" 
+			"Furutaka" "Kako" "Aoba" "Kinugasa" "Myoko" "Nachi" "Haguro" "Ashigara" "Takao" "Atago" "Maya" "Chokai" "Tone" "Chikuma" "Aso" "Tsugaru" "Soya" "Ibuki" "Haogi"
+			# Fictional
+			"Iwaki" "Iwate" "Asahi" "Zao" "Iide" "Azuma" "Bandai" "Nasu" "Makihata" "Tanigawa" "Takatsuma" "Hotaka"
+			"Asama" "Tsukuba" "Hotaka" "Jonen" "Norikura" "Tateshina" "Mizugaki" "Tanzawa" "Ena" "Shiomi" "Akaishi"
+			"Omine" "Ishizuchi" "Aso" "Kaimon" "Waga" "Kurikoma" "Moriyoshi" "Sumon" "Hakkai" "Iwasuge" "Myogi" "Buko"
+			"Hakuseki" "Ashitaka" "Osuzu" "Ichifusa" "Yufu" "Unzen" "Ariake" "Iizuma"
+			"Iwaki" "Mabechi" "Takase" "Naruse" "Yoneshiro" "Omono" "Koyoshi" "Kuji" "Tsurumi" "Oyabe" "Tedori" "Kano" "Shonai" "Suzuka" "Kumozu" "Kushida" "Maruyama" "Hino"
+			"Takatsu" "Yoshii" "Takahashi" "Ashida" "Yoshino" "Onga" "Yabe" "Matsuura" "Yamakuni" "Chikugo" "Rokkaku" "Kikuchi" "Kase" "Honmyo" "Ooita" "Ono" "Ota" "Banjo"
+			"Gokase" "Omaru" "Kimotsuki"
+		}
+	}
+	heavy_cv = {
+		prefix = ""
+		generic = { "Batoru Kyaria" }
+		unique = {
+			# Captured/Converted/Older Models
+			"Saitama"
+			# Fictional
+			"Dewa" "Hitachi" "Noto" "Hida" "Mino" "Mikawa" "Suruga" "Kai" "Izumi" "Kawachi" "Iga" "Tanba" "Sanuki" "Awa" "Satsuma"
+			"Osumi" "Aki" "Settsu" "Tajima" "Iyo" "Omi"
+			"Iwaki" "Iwate" "Asahi" "Zao" "Iide" "Azuma" "Bandai" "Nasu" "Makihata" "Tanigawa" "Takatsuma" "Hotaka"
+			"Asama" "Tsukuba" "Hotaka" "Jonen" "Norikura" "Tateshina" "Mizugaki" "Tanzawa" "Ena" "Shiomi" "Akaishi"
+			"Omine" "Ishizuchi" "Aso" "Kaimon" "Waga" "Kurikoma" "Moriyoshi" "Sumon" "Hakkai" "Iwasuge" "Myogi" "Buko"
+			"Hakuseki" "Ashitaka" "Osuzu" "Ichifusa" "Amagi" "Yufu" "Unzen" "Ariake" "Iizuma"
+			
+		}
+	}
+}

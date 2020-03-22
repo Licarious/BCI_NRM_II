@@ -1,0 +1,75 @@
+technologies = {
+	#Submarines Hangers
+	submarine_hanger_small = {
+
+		enable_equipment_modules = {
+			nrm_submarine_cvl_1
+		}
+	
+		ai_will_do = { factor = 0 }
+	}
+	submarine_hanger_medium = {
+		enable_equipment_modules = {
+			nrm_submarine_cvl_2
+			nrm_submarine_cvl_3
+		}
+	
+		ai_will_do = { factor = 0 }
+	}
+	submarine_hanger_large = {
+
+		enable_equipment_modules = {
+			nrm_submarine_cvl_4
+		}
+	
+		ai_will_do = { factor = 0 }
+	}
+
+	#Surface hybrid Pure Flight Deck
+	surface_hybrid_flightdeck_converted_small = {
+		enable_equipment_modules = {
+			nrm_cruiser_flightdeck_CHL_010
+			nrm_capital_flightdeck_CHL_015
+			nrm_capital_flightdeck_CHL_020
+		}
+		ai_will_do = { factor = 0 }
+	}
+	surface_hybrid_flightdeck_converted_medium = {
+		enable_equipment_modules = {
+			nrm_cruiser_flightdeck_CHL_015
+			nrm_capital_flightdeck_CHL_025
+		}
+		ai_will_do = { factor = 0 }
+	}
+	surface_hybrid_flightdeck_converted_large = {
+		enable_equipment_modules = {
+			nrm_cruiser_flightdeck_CHL_020
+			nrm_capital_flightdeck_CHL_030
+		}
+		ai_will_do = { factor = 0 }
+	}
+	
+	surface_hybrid_flightdeck_armored_small = {
+		enable_equipment_modules = {
+			nrm_cruiser_flightdeck_AHL_010
+			nrm_capital_flightdeck_AHL_015
+			nrm_capital_flightdeck_AHL_020
+		}
+		ai_will_do = { factor = 0 }
+	}
+	surface_hybrid_flightdeck_armored_medium = {
+		enable_equipment_modules = {
+			nrm_cruiser_flightdeck_AHL_015
+			nrm_capital_flightdeck_AHL_025
+		}
+		ai_will_do = { factor = 0 }
+	}
+	surface_hybrid_flightdeck_armored_large = {
+		enable_equipment_modules = {
+			nrm_cruiser_flightdeck_AHL_020
+			nrm_capital_flightdeck_AHL_030
+		}
+		ai_will_do = { factor = 0 }
+	}
+
+}

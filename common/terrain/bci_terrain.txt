@@ -1,0 +1,74 @@
+categories =  {
+	water_fjords = {
+		naval_terrain = yes
+		color = { 75 162 198 }
+		#movement_cost = 1.0
+		is_water = yes
+		sound_type = sea
+		
+		cruiser_cv = {
+			units = {
+				attack = -0.075
+				movement = -0.075
+				defence = -0.075
+			}
+			sortie_efficiency = -0.25
+			navy_fuel_consumption_factor = 0.15
+		}
+		heavy_cv = {
+			units = {
+				attack = -0.2
+				movement = -0.2
+				defence = -0.2
+			}
+			sortie_efficiency = -0.25
+			navy_fuel_consumption_factor = 0.2
+		}
+		
+	}
+	
+	water_shallow_sea = {
+		naval_terrain = yes
+		color = { 56 118 217 } 
+		#movement_cost = 1.0
+		is_water = yes
+		sound_type = sea
+		cruiser_cv = {
+			sortie_efficiency = -0.25
+		}
+		heavy_cv = {
+			sortie_efficiency = -0.25
+		}
+		submarine_cv = {
+			navy_visibility = 0.5
+		}
+		
+	}
+	
+	water_deep_ocean = {
+		naval_terrain = yes
+		color = { 2 38 150 }
+		#movement_cost = 1.0
+		is_water = yes
+		sound_type = sea
+		
+		cruiser_cv = {
+			units = {
+				attack = -0.075
+				movement = -0.075
+				defence = -0.075
+			}
+			sortie_efficiency = -0.25
+		}
+		heavy_cv = {
+			sortie_efficiency = -0.25
+		}
+		submarine_cv = {
+			navy_visibility = -0.15
+			units = {
+				movement = -0.25
+			}
+		}
+		
+	}
+}
